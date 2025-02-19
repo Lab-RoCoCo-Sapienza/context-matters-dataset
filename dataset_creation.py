@@ -1,10 +1,10 @@
-from utils import *
 import os
 from pprint import pprint
 import json
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-DATASET_DIR = os.path.join(BASE_DIR, "dataset")
+from dataset_utils import *
+
+DATASET_DIR = os.path.dirname(os.path.abspath(__file__))
 
 def generate_splits(selected_dataset_splits):
     for root_dir, dirs, files in os.walk(DATASET_DIR):
@@ -24,7 +24,7 @@ def generate_splits(selected_dataset_splits):
                     f.close()
 
                 # Create a dir for the current task, this dir will contain all the scenes related to this task
-                domain_dir = os.path.join("dataset", task_name)
+                domain_dir = os.path.join(task_name)
                 os.makedirs(domain_dir, exist_ok=True)
 
                 for problem_id, problem_data in problems.items():
@@ -50,7 +50,8 @@ def generate_splits(selected_dataset_splits):
                             graph = (add_objects(graph, objects))
                             graph = add_descriptions_to_objects(graph)
 
-                            save_graph(graph, os.path.join(problem_dir, graph_id.replace(".npz", "enhanced.npz")))
+                            #save_graph(graph, os.path.join(problem_dir, graph_id+"_"+problem_id))
+                            save_graph(graph, os.path.join(problem_dir, graph_id))
 
                             task_path = os.path.join(problem_dir, "task.txt")
                             with open(task_path, "w") as f:
@@ -81,7 +82,7 @@ if __name__=="__main__":
 #        "office_setup",    
 #        "other_1",
 #        "other_2",
-        "pc_assembly"
+#        "pc_assembly"
     ]
 
     generate_splits(DATASET_SPLITS)

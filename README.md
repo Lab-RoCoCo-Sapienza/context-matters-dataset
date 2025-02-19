@@ -9,9 +9,9 @@ The dataset comprises a selection of tasks that can be performed on splits of th
 The directory structure is:
 - `TASK_1`:
   + `task_1_domain.pddl` (PDDL domain of the task)
-  + `3D_SCENE_GRAPH_1`:
+  + `3D_SCENE_GRAPH_1_NAME`:
     * `PROBLEM_1`:
-      - `3d_scene_graph.npz` (3D scene graph with the addition of objects as per task description file (see "Dataset generation")
+      - `3D_SCENE_GRAPH_1_NAME.npz` (3D scene graph with the addition of objects as per task description file (see "Dataset generation"))
       - `description.txt` (Natural language description of the task)
       - `init_loc.txt` (Randomly chosen initial room in the agent in the 3D scene graph)
       - `task.txt` (Natural language imperative task)
@@ -19,7 +19,7 @@ The directory structure is:
     * `PROBLEM_N`:
       * ...
   + ...
-  + `3D_SCENE_GRAPH_N`:
+  + `3D_SCENE_GRAPH_N_NAME`:
     * ...
 - ...
 - `TASK_N`:
@@ -62,6 +62,14 @@ sudo snap install ollama
 ```
 pip install -r requirements.txt
 ```
+
+5) Add a `key.txt` file in the root folder with your OpenAI API key
+
+
+### Download Gibson dataset
+Check [this link](https://github.com/StanfordVL/GibsonEnv/blob/master/gibson/data/README.md) for the process of downloading the dataset.
+
+This step is only required to generate the dataset splits. Our dataset contains reduced `.npz` scene graph files, in json format, adapted to the problem defined in the corresponding `TASK_NAME.json` configuration file. 
 
 ### Run
 Choose the splits to generate by modifying the `DATASET_SPLITS` list in `dataset_creation.py`, then:
