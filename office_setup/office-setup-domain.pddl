@@ -43,9 +43,10 @@
 
     (:action check_empty
         :parameters (?what - movable)
-        :precondition (and (forall (?x - grabbable) (not (inside ?x ?what))))
+        :precondition (not (exists (?x - grabbable) (inside ?x ?what)))
         :effect (empty ?what)
     )
+
     
     (:action drop
         :parameters (?who - robot ?what - grabbable ?where - room)
