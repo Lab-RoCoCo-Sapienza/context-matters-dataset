@@ -66,8 +66,8 @@ pip install -r requirements.txt
 5) Add a `key.txt` file in the root folder with your OpenAI API key
 
 
-### Download Gibson dataset
-Check [this link](https://github.com/StanfordVL/GibsonEnv/blob/master/gibson/data/README.md) for the process of downloading the dataset.
+### Download 3D Scene Graph dataset
+Check [this link](https://github.com/StanfordVL/3DSceneGraph) to download the 3D Scene Graph from the original repository.
 
 This step is only required to generate the dataset splits. Our dataset contains reduced `.npz` scene graph files, in json format, adapted to the problem defined in the corresponding `TASK_NAME.json` configuration file. 
 
