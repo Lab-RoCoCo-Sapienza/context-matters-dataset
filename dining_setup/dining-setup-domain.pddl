@@ -15,7 +15,7 @@
         (at ?something - locatable ?where - room)
         (is-holding ?who - robot ?something - grabbable)
         (is-free ?who - robot)
-        (is-inside ?what - grabbable ?where - container)
+        (is-on ?what - grabbable ?where - container)
     )
 
     (:action move_to
@@ -37,14 +37,14 @@
     )
     
     (:action put_on
-        :parameters (?who - robot ?what - grabbable ?what - container ?where - room)
-        :precondition (and (at ?who ?where)(at ?what ?where)(is-holding ?who ?what))
-        :effect (and (not (is-holding ?who ?what))(is-what ?what ?what)(is-free ?who))
+        :parameters (?who - robot ?what - grabbable ?on - container ?where - room)
+        :precondition (and (at ?who ?where)(at ?on ?where)(is-holding ?who ?what))
+        :effect (and (not (is-holding ?who ?what))(is-on ?what ?on)(is-free ?who))
     )
     
     (:action take_from
-        :parameters (?who - robot ?what - grabbable ?what - container ?where - room)
-        :precondition (and (at ?who ?where) (at ?what ?where) (is-what ?what ?what) (is-free ?who))
-        :effect (and (not (is-what ?what ?what)) (is-holding ?who ?what) (not (is-free ?who)))
+        :parameters (?who - robot ?what - grabbable ?from - container ?where - room)
+        :precondition (and (at ?who ?where) (at ?from ?where) (is-on ?what ?from) (is-free ?who))
+        :effect (and (not (is-on ?what ?from)) (is-holding ?who ?what) (not (is-free ?who)))
     )
 )
