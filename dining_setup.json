@@ -3,7 +3,7 @@
     "problem_1": {
       "description": "Task related to setting a table, nothing romantic",
       "graph": ["Shelbiana","Allensville", "Parole"],
-      "goal": "set the table for two people, try adding something romantic",
+      "goal": "set the table for two people",
       "objects": {
         "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin", "fork", "knife", "spoon", "glass", "napkin"]
       }
@@ -11,7 +11,7 @@
     "problem_2": {
       "description": "Task related to setting a table, but only two plates are available but a bowl is available to replace the missing plate",
       "graph": ["Shelbiana","Allensville", "Parole"],
-      "goal": "set the table for three people, try adding something romantic",
+      "goal": "set the table for three people",
       "objects": {
         "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin","fork","fork", "knife", "knife", "bowl", "plate"]
       }
@@ -19,7 +19,7 @@
     "problem_3": {
       "description": "Task related to setting a table, with a rose",
       "graph": ["Shelbiana","Allensville", "Parole"],
-      "goal": "set the table for four people, try adding something romantic",
+      "goal": "set the table for four people",
       "objects": {
           "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin","fork","fork", "bowl", "plate", "plate", "fork",
           "knife","knife", "rose", "rose", "rose", "rose", "vase"]
@@ -38,6 +38,15 @@
       "description": "Task related to setting a buffet table for a party",
       "graph": ["Shelbiana","Allensville", "Parole"],
       "goal": "set the table for a party, try decorating it",
+      "objects": {
+          "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin", "fork","fork", "bowl", "plate", "plate", "fork",
+          "knife","knife", "balloon", "balloon", "rose", "rose", "vase"]
+      }
+    },
+    "problem_6": {
+      "description": "Task related to setting a buffet table for a professional meeting",
+      "graph": ["Shelbiana","Allensville", "Parole"],
+      "goal": "set the table for a buffet after a work meeting, try keeping it professional",
       "objects": {
           "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin", "fork","fork", "bowl", "plate", "plate", "fork",
           "knife","knife", "balloon", "balloon", "rose", "rose", "vase"]

@@ -38,7 +38,7 @@
     
     (:action put_inside
         :parameters (?who - robot ?what - grabbable ?inside - container ?where - room)
-        :precondition (and (at ?who ?room)(at ?inside ?where)(is-holding ?who ?what))
+        :precondition (and (at ?who ?where)(at ?inside ?where)(is-holding ?who ?what))
         :effect (and (not (is-holding ?who ?what))(is-inside ?what ?inside)(is-free ?who))
     )
     

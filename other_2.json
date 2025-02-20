@@ -2,15 +2,15 @@
   "problems": {
     "problem_1": {
       "description": "Task related to organizing art supplies in the creative studio.",
-      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater","Onaga","Pinesdale","Pomaria","Ranchester","Shelbyville","Stockman","Tolstoy","Uvalda","Wainscott","Wiconisco","Woodbine"],
-      "goal": "Arrange and label all art supplies on the shelves.",
+      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater"],
+      "goal": "Arrange all art supplies on the shelves.",
       "objects": {
         "objects": ["paintbrush", "palette", "easel", "canvas", "water cup", "oil paint", "acrylic paint", "sketchpad", "charcoal", "pastels", "marker", "spray paint", "shelf"]
       }
     },
     "problem_2": {
       "description": "Task related to organizing electronic equipment in the tech lab.",
-      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater","Onaga","Pinesdale","Pomaria","Ranchester","Shelbyville","Stockman","Tolstoy","Uvalda","Wainscott","Wiconisco","Woodbine"],
+      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater"],
       "goal": "Place all electronic devices on the designated workstations.",
       "objects": {
         "objects": ["laptop", "tablet", "smartphone", "monitor", "keyboard", "mouse", "printer", "router", "external hard drive", "webcam", "charger"]
@@ -18,7 +18,7 @@
     },
     "problem_3": {
       "description": "Task related to arranging kitchen utensils and appliances.",
-      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater","Onaga","Pinesdale","Pomaria","Ranchester","Shelbyville","Stockman","Tolstoy","Uvalda","Wainscott","Wiconisco","Woodbine"],
+      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater"],
       "goal": "Collect and organize all kitchen utensils and appliances on the counters.",
       "objects": {
         "objects": ["knife", "spoon", "fork", "plate", "cup", "blender", "microwave", "toaster", "pot", "pan", "cutting board", "colander", "counter"]
@@ -26,7 +26,7 @@
     },
     "problem_4": {
       "description": "Task related to organizing books in a library setting.",
-      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater","Onaga","Pinesdale","Pomaria","Ranchester","Shelbyville","Stockman","Tolstoy","Uvalda","Wainscott","Wiconisco","Woodbine"],
+      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater"],
       "goal": "Categorize and place all books on their respective shelves.",
       "objects": {
         "objects": ["novel", "textbook", "magazine", "journal", "dictionary", "encyclopedia", "comic book", "atlas", "manual", "guide", "library"]
@@ -34,7 +34,7 @@
     },
     "problem_5": {
       "description": "Task related to organizing various sports equipment.",
-      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater","Onaga","Pinesdale","Pomaria","Ranchester","Shelbyville","Stockman","Tolstoy","Uvalda","Wainscott","Wiconisco","Woodbine"],
+      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater"],
       "goal": "Place all sports equipment in the bedroom",
       "objects": {
         "objects": ["basketball", "soccer ball", "tennis racket", "baseball bat", "golf club", "volleyball", "dumbbell", "yoga mat", "skipping rope", "boxing gloves"]
@@ -42,7 +42,7 @@
     },
     "problem_6": {
       "description": "Task related to arranging office supplies neatly.",
-      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater","Onaga","Pinesdale","Pomaria","Ranchester","Shelbyville","Stockman","Tolstoy","Uvalda","Wainscott","Wiconisco","Woodbine"],
+      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater"],
       "goal": "Organize all office supplies into designated compartments on the desk.",
       "objects": {
         "objects": ["pen", "pencil", "stapler", "notebook", "paper clips", "scissors", "tape", "calculator", "highlighter", "folder", "binder", "desk"]
@@ -50,7 +50,7 @@
     },
     "problem_7": {
       "description": "Task related to sorting and organizing garden tools.",
-      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater","Onaga","Pinesdale","Pomaria","Ranchester","Shelbyville","Stockman","Tolstoy","Uvalda","Wainscott","Wiconisco","Woodbine"],
+      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater"],
       "goal": "Place all garden tools in kitchen",
       "objects": {
         "objects": ["shovel", "rake", "hoe", "pruning shears", "watering can", "lawn mower", "gloves", "wheelbarrow", "trowel", "garden fork"]
@@ -58,7 +58,7 @@
     },
     "problem_8": {
       "description": "Task related to arranging musical instruments neatly.",
-      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater","Onaga","Pinesdale","Pomaria","Ranchester","Shelbyville","Stockman","Tolstoy","Uvalda","Wainscott","Wiconisco","Woodbine"],
+      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater"],
       "goal": "Arrange all musical instruments on living room",
       "objects": {
         "objects": ["guitar", "piano", "drum set", "violin", "flute", "saxophone", "trumpet", "cello", "clarinet", "keyboard"]
@@ -66,7 +66,7 @@
     },
     "problem_9": {
       "description": "Task related to sorting and storing cleaning supplies.",
-      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater","Onaga","Pinesdale","Pomaria","Ranchester","Shelbyville","Stockman","Tolstoy","Uvalda","Wainscott","Wiconisco","Woodbine"],
+      "graph": ["McDade","Merom","Mifflinburg","Muleshoe","Newfields","Noxapater"],
       "goal": "Sort and store all cleaning supplies into labeled storage units.",
       "objects": {
         "objects": ["broom", "mop", "bucket", "cleaning spray", "detergent", "sponge", "gloves", "brush", "dustpan", "squeegee"]
@@ -86,6 +86,14 @@
       {
         "name": "drop",
         "description": "This action allows a robot to drop a grabbable object it is holding in a room. Arguments: robot (the robot that will drop the object), what (the grabbable object to be dropped), where (the room where the object will be dropped). Preconditions: the robot must be in the room and holding the object. Postconditions: the robot is no longer holding the object, the robot is free, and the object is now in the room."
+      },
+      {
+        "name": "put_inside",
+        "description": "This action allows a robot to put a grabbable object inside a container in a room. Arguments: robot (the robot that will put the object inside), what (the grabbable object to be put inside), inside (the container), where (the room where the container is located). Preconditions: the robot must be in the room, the container must be in the room, and the robot must be holding the object. Postconditions: the robot is no longer holding the object, the object is inside the container, and the robot is free."
+      },
+      {
+        "name": "extract_from",
+        "description": "This action allows a robot to extract a grabbable object from a container in a room. Arguments: robot (the robot that will extract the object), what (the grabbable object to be extracted), inside (the container), where (the room where the container is located). Preconditions: the robot must be in the room, the container must be in the room, the object must be inside the container, and the robot must be free. Postconditions: the robot is holding the object, the object is no longer inside the container, and the robot is no longer free."
       }
     ],
     "objects": [
@@ -104,6 +112,10 @@
       {
         "type": "grabbable",
         "description": "A grabbable object is any object that a robot can pick up and move. Examples include pc parts, kitchenware, etc."
+      },
+      {
+        "type": "container",
+        "description": "A container is an object that can hold grabbable objects. Examples include bins, boxes, etc."
       }
     ]
   }

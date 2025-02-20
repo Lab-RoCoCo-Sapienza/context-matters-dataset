@@ -1,6 +1,6 @@
 {
   "problems" : {
-    "problem_7": {
+    "problem_1": {
       "description": "task related to house cleaning",
       "graph": ["Shelbiana","Allensville", "Parole"],
       "goal": "throw away a cola can, a banana peel and a rotting apple in the rubbish bin, then mop the floor in the kitchen and living room and clean the mop immediately after cleaning each room",
@@ -9,13 +9,49 @@
         "objects": ["cola_can", "banana_peel", "rotting_apple", "bucket"]
       }
     },
-    "problem_8": {
+    "problem_2": {
       "description": "task related to house cleaning but banana peel and rotting apple are missing",
       "graph": ["Shelbiana","Allensville", "Parole"],
       "goal": "throw away a cola can, a banana peel and a rotting apple in the rubbish bin, then mop the floor in the kitchen and living room and clean the mop immediately after cleaning each room",
       "objects": {
         "cleaning_objects": ["mop", "rubbish_bin"],
         "objects": ["cola_can", "bucket"]
+      }
+    },
+    "problem_3": {
+      "description": "task related to house cleaning but the mop is missing",
+      "graph": ["Shelbiana","Allensville", "Parole"],
+      "goal": "throw away a cola can, a banana peel and a rotting apple in the rubbish bin, then mop the floor in the kitchen and living room and clean the mop immediately after cleaning each room",
+      "objects": {
+        "cleaning_objects": ["rubbish_bin"],        
+        "objects": ["cola_can", "banana_peel", "rotting_apple", "bucket"]
+      }
+    },
+    "problem_4": {
+      "description": "task related to house cleaning, requiring to recycle rubbish",
+      "graph": ["Shelbiana","Allensville", "Parole"],
+      "goal": "throw away the rubbsih but properly recycle it, then mop the floor in the kitchen and living room and clean the mop immediately after cleaning each room",
+      "objects": {
+        "cleaning_objects": ["mop", "organic_bin", "plastic_bin", "paper_bin", "metal_bin", "glass_bin"],
+        "objects": ["cola_can", "empty_glass_bottle", "empty_plastic_bottle", "full_glass_bottle", "banana_peel", "rotting_apple", "bucket"]
+      }
+    },
+    "problem_5": {
+      "description": "task related to house cleaning but the glass_bin is missing",
+      "graph": ["Shelbiana","Allensville", "Parole"],
+      "goal": "throw away the rubbsih but properly recycle it, then mop the floor in the kitchen and living room and clean the mop immediately after cleaning each room",
+      "objects": {
+        "cleaning_objects": ["mop", "organic_bin", "plastic_bin", "paper_bin", "metal_bin"],
+        "objects": ["cola_can", "empty_glass_bottle", "empty_plastic_bottle", "full_glass_bottle", "banana_peel", "rotting_apple", "bucket"]
+      }
+    },
+    "problem_6": {
+      "description": "task related to house cleaning, requiring to recycle rubbish but the there is only an organic bin and a bin with no clear label",
+      "graph": ["Shelbiana","Allensville", "Parole"],
+      "goal": "throw away the rubbsih but properly recycle rubbish, then mop the floor in the kitchen and living room and clean the mop immediately after cleaning each room",
+      "objects": {
+        "cleaning_objects": ["mop", "organic_bin", "undefined_bin"],
+        "objects": ["cola_can", "empty_glass_bottle", "empty_plastic_bottle", "full_glass_bottle", "banana_peel", "rotting_apple", "bucket"]
       }
     }
   },

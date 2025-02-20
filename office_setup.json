@@ -1,39 +1,84 @@
 {
   "problems": {
-    "problem_9": {
-      "description": "task related to setup an office",
+    "problem_1": {
+      "description": "Task related to setting up an office",
       "graph": ["Shelbiana","Allensville", "Parole"],
       "goal": "remove the objects from the shelf and locker, and put the desk, the lamp, the shelf, and the locker in the living room after removing the objects from them",
       "objects": {
         "office_objects": ["desk", "lamp", "shelf", "locker"],
         "objects_in_shelf": ["book  into the shelf", "folder into the shelf", "pen into the shelf", "notebook into the shelf"],
         "objects_in_locker": ["laptop into the locker", "mouse into the locker", "keyboard into the locker", "headphone into the locker"]
-      }
+      },
+      "relaxation_expected": false
     },
-    "problem_10": {
-      "description": "task related to setup an office, the locker is already empty",
+    "problem_2": {
+      "description": "task related to setting up an office, the locker is already empty",
       "graph": ["Shelbiana","Allensville", "Parole"],
       "goal": "remove the objects from the shelf and locker, and put the desk, the lamp, the shelf, and the locker in the living room after removing the objects from them",
       "objects": {
         "office_objects": ["desk", "lamp", "shelf", "locker"],
         "objects_in_shelf": ["book into the shelf", "folder into the shelf", "pen into the shelf", "notebook into the shelf"]
-      }
+      },
+      "relaxation_expected": false
     },
-    "problem_11": {
-      "description": "task related to setup an office, the shelf and the locker are already empty",
+    "problem_3": {
+      "description": "task related to setting up an office, the shelf and the locker are already empty",
       "graph": ["Shelbiana","Allensville", "Parole"],
       "goal": "remove the objects from the shelf and locker, and put the desk, the lamp, the shelf, and the locker in the living room after removing the objects from them",
       "objects": {
         "office_objects": ["desk", "lamp", "shelf", "locker"]
-      }
+      },
+      "relaxation_expected": false
     },
-    "problem_12": {
-      "description": "task related to setup an office but the shelf is missing and the locker is already empty",
+    "problem_4": {
+      "description": "Task related to setting up an office in which the robot is required to put the objects back in the container where they were stored originally after moving it",
+      "graph": ["Shelbiana","Allensville", "Parole"],
+      "goal": "remove the objects from the shelf and locker, and put the desk, the lamp, the shelf, and the locker in the living, then put the objects back in the container where they were located originally",
+      "objects": {
+        "office_objects": ["desk", "lamp", "shelf", "locker"],
+        "objects_in_shelf": ["book  into the shelf", "folder into the shelf", "pen into the shelf", "notebook into the shelf"],
+        "objects_in_locker": ["laptop into the locker", "mouse into the locker", "keyboard into the locker", "headphone into the locker"]
+      },
+      "relaxation_expected": false
+    },
+    "problem_5": {
+      "description": "Task related to setting up an office in which the robot is required to put the objects all on the shelf after moving it",
+      "graph": ["Shelbiana","Allensville", "Parole"],
+      "goal": "remove the objects from the shelf and locker, and put the desk, the lamp, the shelf, and the locker in the living room after removing the objects from them, then put all the objects, that were originally located in other containers, inside the shelf that you just moved",
+      "objects": {
+        "office_objects": ["desk", "lamp", "shelf", "locker"],
+        "objects_in_shelf": ["book  into the shelf", "folder into the shelf", "pen into the shelf", "notebook into the shelf"],
+        "objects_in_locker": ["laptop into the locker", "mouse into the locker", "keyboard into the locker", "headphone into the locker"]
+      },
+      "relaxation_expected": false
+    },
+    "problem_6": {
+      "description": "task related to setting up an office but the shelf is missing and the locker is already empty",
       "graph": ["Shelbiana","Allensville", "Parole"],
       "goal": "remove the objects from the shelf and locker, and put the desk, the lamp, the shelf, and the locker in the living room after removing the objects from them",
       "objects": {
         "office_objects": ["desk", "lamp", "locker"]
-      }
+      },
+      "relaxation_expected": true
+    },
+    "problem_7": {
+      "description": "task related to setting up an office and moving all the objects to the shelf but the shelf is missing",
+      "graph": ["Shelbiana","Allensville", "Parole"],
+      "goal": "put the desk, the lamp, the shelf, and the locker in the living room and then put all the previous contents on the shelf",
+      "objects": {
+        "office_objects": ["desk", "lamp", "locker"],
+        "objects_in_locker": ["laptop into the locker", "mouse into the locker", "keyboard into the locker", "headphone into the locker"]
+      },
+      "relaxation_expected": true
+    },
+    "problem_8": {
+      "description": "task related to setting up an office and moving all the objects to the shelf but the shelf is missing and the locker is empty",
+      "graph": ["Shelbiana","Allensville", "Parole"],
+      "goal": "put the shelf, and the locker in the living room and then put all the previous contents of the shelf inside the locker",
+      "objects": {
+        "office_objects": ["desk", "lamp", "locker"]
+      },
+      "relaxation_expected": true
     }
   },
   "domain": {
