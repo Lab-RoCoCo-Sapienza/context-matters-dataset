@@ -36,15 +36,15 @@
         :effect (and (not (is-holding ?who ?what)) (is-free ?who) (at ?what ?where))
     )
     
-    (:action put_inside
-        :parameters (?who - robot ?what - grabbable ?inside - container ?where - room)
-        :precondition (and (at ?who ?where)(at ?inside ?where)(is-holding ?who ?what))
-        :effect (and (not (is-holding ?who ?what))(is-inside ?what ?inside)(is-free ?who))
+    (:action put_on
+        :parameters (?who - robot ?what - grabbable ?what - container ?where - room)
+        :precondition (and (at ?who ?where)(at ?what ?where)(is-holding ?who ?what))
+        :effect (and (not (is-holding ?who ?what))(is-what ?what ?what)(is-free ?who))
     )
     
-    (:action extract_from
-        :parameters (?who - robot ?what - grabbable ?inside - container ?where - room)
-        :precondition (and (at ?who ?where) (at ?inside ?where) (is-inside ?what ?inside) (is-free ?who))
-        :effect (and (not (is-inside ?what ?inside)) (is-holding ?who ?what) (not (is-free ?who)))
+    (:action take_from
+        :parameters (?who - robot ?what - grabbable ?what - container ?where - room)
+        :precondition (and (at ?who ?where) (at ?what ?where) (is-what ?what ?what) (is-free ?who))
+        :effect (and (not (is-what ?what ?what)) (is-holding ?who ?what) (not (is-free ?who)))
     )
 )
