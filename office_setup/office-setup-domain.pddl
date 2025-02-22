@@ -16,7 +16,7 @@
         (at ?something - locatable ?where - room)
         (is-holding ?who - robot ?something - grabbable)
         (is-free ?who - robot)
-        (inside ?what - grabbable ?where - movable)
+        (inside ?what - object ?where - movable)
     )
 
     (:action move_to
@@ -53,7 +53,7 @@
         :precondition (and 
                         (at ?who ?from)
                         (at ?what ?from)
-                        (forall (?item - grabbable) (not (inside ?item ?what)))                 
+                        (forall (?item - object) (not (inside ?item ?what)))                 
                     )
         :effect (and 
                     (not (at ?who ?from)) 
