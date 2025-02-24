@@ -6,7 +6,8 @@
       "goal": "Arrange all art supplies on the shelves.",
       "objects": {
         "objects": ["paintbrush", "palette", "easel", "canvas", "water cup", "oil paint", "acrylic paint", "sketchpad", "charcoal", "pastels", "marker", "spray paint", "shelf"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_2": {
       "description": "Task related to organizing electronic equipment in the tech lab.",
@@ -14,7 +15,8 @@
       "goal": "Place all electronic devices on the designated workstations.",
       "objects": {
         "objects": ["laptop", "tablet", "smartphone", "monitor", "keyboard", "mouse", "printer", "router", "external hard drive", "webcam", "charger"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_3": {
       "description": "Task related to arranging kitchen utensils and appliances.",
@@ -22,7 +24,8 @@
       "goal": "Collect and organize all kitchen utensils and appliances on the counters.",
       "objects": {
         "objects": ["knife", "spoon", "fork", "plate", "cup", "blender", "microwave", "toaster", "pot", "pan", "cutting board", "colander", "counter"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_4": {
       "description": "Task related to organizing books in a library setting.",
@@ -30,7 +33,8 @@
       "goal": "Categorize and place all books on their respective shelves.",
       "objects": {
         "objects": ["novel", "textbook", "magazine", "journal", "dictionary", "encyclopedia", "comic book", "atlas", "manual", "guide", "library"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_5": {
       "description": "Task related to organizing various sports equipment.",
@@ -38,7 +42,8 @@
       "goal": "Place all sports equipment in the bedroom",
       "objects": {
         "objects": ["basketball", "soccer ball", "tennis racket", "baseball bat", "golf club", "volleyball", "dumbbell", "yoga mat", "skipping rope", "boxing gloves"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_6": {
       "description": "Task related to arranging office supplies neatly.",
@@ -46,7 +51,8 @@
       "goal": "Organize all office supplies into designated compartments on the desk.",
       "objects": {
         "objects": ["pen", "pencil", "stapler", "notebook", "paper clips", "scissors", "tape", "calculator", "highlighter", "folder", "binder", "desk"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_7": {
       "description": "Task related to sorting and organizing garden tools.",
@@ -54,7 +60,8 @@
       "goal": "Place all garden tools in kitchen",
       "objects": {
         "objects": ["shovel", "rake", "hoe", "pruning shears", "watering can", "lawn mower", "gloves", "wheelbarrow", "trowel", "garden fork"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_8": {
       "description": "Task related to arranging musical instruments neatly.",
@@ -62,7 +69,8 @@
       "goal": "Arrange all musical instruments on living room",
       "objects": {
         "objects": ["guitar", "piano", "drum set", "violin", "flute", "saxophone", "trumpet", "cello", "clarinet", "keyboard"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_9": {
       "description": "Task related to sorting and storing cleaning supplies.",
@@ -70,7 +78,8 @@
       "goal": "Sort and store all cleaning supplies into labeled storage units.",
       "objects": {
         "objects": ["broom", "mop", "bucket", "cleaning spray", "detergent", "sponge", "gloves", "brush", "dustpan", "squeegee"]
-      }
+      },
+      "relaxation_expected": false
     }
   },
   "domain": {

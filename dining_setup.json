@@ -6,7 +6,8 @@
       "goal": "set the table for two people",
       "objects": {
         "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin", "fork", "knife", "spoon", "glass", "napkin"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_2": {
       "description": "Task related to setting a table, but only two plates are available but a bowl is available to replace the missing plate",
@@ -14,7 +15,8 @@
       "goal": "set the table for three people",
       "objects": {
         "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin","fork","fork", "knife", "knife", "bowl", "plate"]
-      }
+      },
+      "relaxation_expected": true
     },
     "problem_3": {
       "description": "Task related to setting a table, with a rose",
@@ -23,7 +25,8 @@
       "objects": {
           "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin","fork","fork", "bowl", "plate", "plate", "fork",
           "knife","knife", "rose", "rose", "rose", "rose", "vase"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_4": {
       "description": "Task related to setting a table for soup",
@@ -32,7 +35,8 @@
       "objects": {
           "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin", "fork","fork", "bowl", "plate", "plate", "fork",
           "knife","knife", "rose", "rose", "rose", "rose", "vase"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_5": {
       "description": "Task related to setting a buffet table for a party",
@@ -41,7 +45,8 @@
       "objects": {
           "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin", "fork","fork", "bowl", "plate", "plate", "fork",
           "knife","knife", "balloon", "balloon", "rose", "rose", "vase"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_6": {
       "description": "Task related to setting a buffet table for a professional meeting",
@@ -50,7 +55,8 @@
       "objects": {
           "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin", "fork","fork", "bowl", "plate", "plate", "fork",
           "knife","knife", "balloon", "balloon", "rose", "rose", "vase"]
-      }
+      },
+      "relaxation_expected": false
     }
   },
   "domain": {

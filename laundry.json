@@ -45,7 +45,8 @@
         "kitchen_objects": ["plate", "dirty_plate", "knife", "dirty_knife", "drinking_glass", "dirty_drinking_glass", "fork", "dirty_fork", "spoon", "dirty_spoon", "bowl", "dirty_bowl", "pot", "dirty_pot", "pan", "dirty_pan"],
         "laundry_equipment": ["detergent"],
         "kitchen_cleaning_equipment": ["dishwasher", "dish_soap"]
-      }
+      },
+      "relaxation_expected": true
     },
     "problem_5": {
       "description": "Task related to washing clothes with a washing machine, but there is no soap or detergent",
@@ -56,7 +57,8 @@
         "kitchen_objects": ["plate", "dirty_plate", "knife", "dirty_knife", "drinking_glass", "dirty_drinking_glass", "fork", "dirty_fork", "spoon", "dirty_spoon", "bowl", "dirty_bowl", "pot", "dirty_pot", "pan", "dirty_pan"],
         "laundry_equipment": ["washing_machine"],
         "kitchen_cleaning_equipment": ["dishwasher"]
-      }
+      },
+      "relaxation_expected": true
     },
     "problem_6": {
       "description": "Task related to washing clothes with a washing machine, but there are no dirty clothes",
@@ -67,7 +69,8 @@
         "kitchen_objects": ["plate", "dirty_plate", "knife", "dirty_knife", "drinking_glass", "dirty_drinking_glass", "fork", "dirty_fork", "spoon", "dirty_spoon", "bowl", "dirty_bowl", "pot", "dirty_pot", "pan", "dirty_pan"],
         "laundry_equipment": ["washing_machine"],
         "kitchen_cleaning_equipment": ["dishwasher"]
-      }
+      },
+      "relaxation_expected": false
     }
   },
   "domain": {

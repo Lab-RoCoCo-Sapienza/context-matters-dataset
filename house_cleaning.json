@@ -7,7 +7,8 @@
       "objects": {
         "cleaning_objects": ["mop", "rubbish_bin"],
         "objects": ["cola_can", "banana_peel", "rotting_apple", "bucket"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_2": {
       "description": "task related to house cleaning but banana peel and rotting apple are missing",
@@ -16,7 +17,8 @@
       "objects": {
         "cleaning_objects": ["mop", "rubbish_bin"],
         "objects": ["cola_can", "bucket"]
-      }
+      },
+      "relaxation_expected": true
     },
     "problem_3": {
       "description": "task related to house cleaning but the mop is missing",
@@ -25,7 +27,8 @@
       "objects": {
         "cleaning_objects": ["rubbish_bin"],        
         "objects": ["cola_can", "banana_peel", "rotting_apple", "bucket"]
-      }
+      },
+      "relaxation_expected": true
     },
     "problem_4": {
       "description": "task related to house cleaning, requiring to recycle rubbish",
@@ -34,7 +37,8 @@
       "objects": {
         "cleaning_objects": ["mop", "organic_bin", "plastic_bin", "paper_bin", "metal_bin", "glass_bin"],
         "objects": ["cola_can", "empty_glass_bottle", "empty_plastic_bottle", "full_glass_bottle", "banana_peel", "rotting_apple", "bucket"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_5": {
       "description": "task related to house cleaning but the glass_bin is missing",
@@ -43,7 +47,8 @@
       "objects": {
         "cleaning_objects": ["mop", "organic_bin", "plastic_bin", "paper_bin", "metal_bin"],
         "objects": ["cola_can", "empty_glass_bottle", "empty_plastic_bottle", "full_glass_bottle", "banana_peel", "rotting_apple", "bucket"]
-      }
+      },
+      "relaxation_expected": true
     },
     "problem_6": {
       "description": "task related to house cleaning, requiring to recycle rubbish but the there is only an organic bin and a bin with no clear label",
@@ -52,7 +57,8 @@
       "objects": {
         "cleaning_objects": ["mop", "organic_bin", "undefined_bin"],
         "objects": ["cola_can", "empty_glass_bottle", "empty_plastic_bottle", "full_glass_bottle", "banana_peel", "rotting_apple", "bucket"]
-      }
+      },
+      "relaxation_expected": true
     }
   },
   "domain": {
