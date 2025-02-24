@@ -50,19 +50,17 @@
     )
 
     (:action push
-        :parameters (?who - robot ?what - movable ?contained_item - object ?from - room ?to - room )
+        :parameters (?who - robot ?what - movable ?contained_item - grabbable ?from - room ?to - room )
         :precondition (and 
                         (at ?who ?from)
                         (at ?what ?from)
                         (slot-free ?what)
-                        (inside ?contained_item ?what)
                     )
         :effect (and 
                     (not (at ?who ?from)) 
                     (not (at ?what ?from))
                     (at ?who ?to) 
                     (at ?what ?to)    
-                    (at ?contained_item ?to)
                 )
     )
 
