@@ -1,0 +1,1 @@
+Task related to setting up an office in which the robot is required to put the objects all on the shelf after moving it
