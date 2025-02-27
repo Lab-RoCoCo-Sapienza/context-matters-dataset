@@ -4,7 +4,7 @@ import random
 
 import numpy as np
 
-from agent import local_llm_call
+from agent import llm_call
 
 def read_graph_from_path(path: Path) -> Dict:
     """
@@ -36,11 +36,12 @@ def add_descriptions_to_objects(graph):
     :param graph: Dizionario contenente il 3DSG
     :return: Grafo aggiornato con descrizioni per gli oggetti
     """
-    
+    print("Adding descriptions to objects")
     for obj_id, obj in graph["object"].items():
-        obj["description"] = local_llm_call("Describe the object in one sentence in the following format A <color> <name of object> made of <material>\
-        in which you replace <color> with the color of the object, <name of object> with the name of the object and <material> with the material of the\
-        object. For example A brown table made of wood. Do not add other information.", obj["class_"])
+        print("the object is: ", obj["class_"])
+        obj["description"] = llm_call("Given an input object, add a color and a material.\
+                    Your output will be a line with the description: a color object name made of material. Answer with only the description with material and color using the name of the object in the question and nothing else.", question="the object is " + obj["class_"])
+        print("the description is: ", obj["description"])
     return graph
 
 def save_graph(graph: Dict, path: str):

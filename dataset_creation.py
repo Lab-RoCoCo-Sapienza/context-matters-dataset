@@ -76,13 +76,13 @@ def generate_splits(selected_dataset_splits):
 if __name__=="__main__":
     
     DATASET_SPLITS = [
-#        "dining_setup",
-#        "house_cleaning",
+        "dining_setup",
+        "house_cleaning",
         "laundry",
-#        "office_setup",    
-#        "other_1",
-#        "other_2",
-#        "pc_assembly"
+        "office_setup",    
+        #"other_1",
+        #"other_2",
+        "pc_assembly"
     ]
 
     generate_splits(DATASET_SPLITS)
