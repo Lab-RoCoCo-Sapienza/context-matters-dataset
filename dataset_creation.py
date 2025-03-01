@@ -82,7 +82,8 @@ if __name__=="__main__":
         "office_setup",    
         #"other_1",
         #"other_2",
-        "pc_assembly"
+        "pc_assembly",
+        "coffebreak",
     ]
 
     generate_splits(DATASET_SPLITS)

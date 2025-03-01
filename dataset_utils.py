@@ -40,7 +40,9 @@ def add_descriptions_to_objects(graph):
     for obj_id, obj in graph["object"].items():
         print("the object is: ", obj["class_"])
         obj["description"] = llm_call("Given an input object, add a color and a material.\
-                    Your output will be a line with the description: a color object name made of material. Answer with only the description with material and color using the name of the object in the question and nothing else.", question="the object is " + obj["class_"])
+                    Your output will be a line with the description: a color object name made of material. Answer with only \
+                                    the description with material and color using the name of the object in the question and nothing else.", 
+                                    temperature=0.1,question="the object is " + obj["class_"])
         print("the description is: ", obj["description"])
     return graph
 
