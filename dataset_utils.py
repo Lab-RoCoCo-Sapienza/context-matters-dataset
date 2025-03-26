@@ -31,10 +31,10 @@ def read_graph_from_path(path: Path) -> Dict:
 
 def add_descriptions_to_objects(graph):
     """
-    Aggiunge la proprietà "description" a ogni oggetto nel grafo.
+    Adds the "description" property to each object in the graph.
 
-    :param graph: Dizionario contenente il 3DSG
-    :return: Grafo aggiornato con descrizioni per gli oggetti
+    :param graph: Dictionary containing the 3DSG
+    :return: Updated graph with descriptions for the objects
     """
     print("Adding descriptions to objects")
     for obj_id, obj in graph["object"].items():
@@ -74,11 +74,11 @@ def filter_graph(graph: Dict, labels: Set[str]) -> Dict:
 
 def add_objects(graph, dict_objects):
     """
-    Aggiunge oggetti casuali a stanze casuali nel grafo.
+    Adds random objects to random rooms in the graph.
 
-    :param graph: Dizionario contenente il 3DSG
-    :param num_objects: Numero di oggetti da aggiungere
-    :return: Grafo aggiornato con nuovi oggetti
+    :param graph: Dictionary containing the 3DSG
+    :param dict_objects: Dictionary of objects to add, where keys are categories and values are lists of object names
+    :return: Updated graph with new objects
     """
     
     possible_objects = []
@@ -86,29 +86,29 @@ def add_objects(graph, dict_objects):
         for obj in obj_value:
             possible_objects.append({"class_": obj, "action_affordance": []})
 
-    # Trova ID massimo attuale per evitare conflitti
+    # Find max ID
     if graph["object"]:
         max_id = max(graph["object"].keys())
     else:
         max_id = 0
 
-    # Ottieni stanze esistenti
+    # get existing rooms
     room_ids = list(graph["room"].keys())
 
-    # Aggiungi oggetti random (scegli a caso il numero di oggetti uguali)
+    # add random objects
     for obj_data in possible_objects:
         obj_id = max_id + 1
         obj_type = obj_data["class_"]
-        room_id = random.choice(room_ids)  # Scegli una stanza casuale
+        room_id = random.choice(room_ids)  # get random room
 
-        # Genera posizione casuale all'interno della stanza scelta
+        # create an (x,yz) location for the object, doesnt matter where
         location = np.array([
             np.zeros(3),
             np.zeros(3),
             np.zeros(3)
         ])
 
-        # Crea nuovo oggetto
+        # create new object
         new_object = {
             "id": obj_id,
             "class_": obj_data["class_"],
@@ -117,9 +117,9 @@ def add_objects(graph, dict_objects):
             "parent_room": room_id,
         }
 
-        # Aggiungi al grafo
+        # add to the graph
         graph["object"][obj_id] = new_object
-        max_id += 1  # Aggiorna ID massimo
+        max_id += 1  # update max_id
 
     return graph
 
