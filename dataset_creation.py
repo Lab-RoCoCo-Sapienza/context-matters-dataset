@@ -3,10 +3,11 @@ from pprint import pprint
 import json
 
 from dataset_utils import *
+import argparse
 
 DATASET_DIR = os.path.dirname(os.path.abspath(__file__))
 
-def generate_splits(selected_dataset_splits):
+def generate_splits(selected_dataset_splits, DESCRIPTION=False):
     for root_dir, dirs, files in os.walk(DATASET_DIR):
         for file in files:
             # Load JSON task configuration file
@@ -48,7 +49,8 @@ def generate_splits(selected_dataset_splits):
                             print(problem_data["description"])
 
                             graph = (add_objects(graph, objects))
-                            graph = add_descriptions_to_objects(graph)
+                            if DESCRIPTION:
+                                graph = add_descriptions_to_objects(graph)
 
                             #save_graph(graph, os.path.join(problem_dir, graph_id+"_"+problem_id))
                             save_graph(graph, os.path.join(problem_dir, graph_id))
@@ -80,10 +82,13 @@ if __name__=="__main__":
         "house_cleaning",
         "laundry",
         "office_setup",    
-        #"other_1",
-        #"other_2",
         "pc_assembly",
-        "coffebreak",
     ]
 
-    generate_splits(DATASET_SPLITS)
+    parser = argparse.ArgumentParser(description="Generate dataset splits.")
+    parser.add_argument("--description", action="store_true", help="Add descriptions to objects in the graph.")
+    args = parser.parse_args()
+
+    DESCRIPTION = args.description
+
+    generate_splits(DATASET_SPLITS, DESCRIPTION)
