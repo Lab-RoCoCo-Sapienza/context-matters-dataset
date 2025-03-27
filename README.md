@@ -1,6 +1,10 @@
 ### Dataset creation instruction
 Download the original 3D Scene Graphs from [3D Scene Graph](https://3dscenegraph.stanford.edu/) and place the `.npz` files into
 the `3dscenegraph` folder. 
+Export your OpenAI API key:
+```bash
+export OPENAI_API_KEY=<YOUR KEY>
+```
 After placing the files, you can generate the enhanced dataset by executing the following command:
 ```bash
 python dataset_creation.py --description (optional)
