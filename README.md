@@ -1,6 +1,6 @@
 ### Dataset creation instruction
 Download the original 3D Scene Graphs from [3D Scene Graph](https://3dscenegraph.stanford.edu/) and place the `.npz` files into
-the `3dscenegraph` folder. 
+the `3dscenegraph` folder, which should be located at the same directory level as the `dataset_creation.py` script. 
 Export your OpenAI API key:
 ```bash
 export OPENAI_API_KEY=<YOUR KEY>
