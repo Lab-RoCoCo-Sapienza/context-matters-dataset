@@ -93,7 +93,7 @@
         "description": "The robot removes an object from a movable container. Arguments: the robot, the object to be removed, the container, and the room where the container is located. Preconditions: the robot and the container are in the same room, the object is inside the container, and the robot is free to grab. Postconditions: the object is no longer inside the container, the robot is holding the object, and the robot is no longer free."
       },
       "check_empty": {
-        "description": "The robot checks if a movable container is empty. Arguments: the container to be checked. Preconditions: there are no objects inside the container. Postconditions: the container is marked as empty."
+        "description": "The robot checks if a movable container is empty. Arguments: the robot, the container to be checked, the room. Preconditions: there are no objects inside the container, the robot and the container are in the same room. Postconditions: the container is marked as empty."
       },
       "drop": {
         "description": "The robot drops an object it is holding. Arguments: the robot, the object to be dropped, and the room where the object will be dropped. Preconditions: the robot is in the room and holding the object. Postconditions: the robot is no longer holding the object, the robot is free, and the object is in the room."
