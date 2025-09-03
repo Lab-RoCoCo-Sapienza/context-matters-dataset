@@ -48,12 +48,22 @@ def generate_splits(selected_dataset_splits, DESCRIPTION=False):
                             # pprint(graph)
                             print(problem_data["description"])
 
-                            graph = (add_objects(graph, objects))
+                            # Check if objects use the new format (to_add with specific rooms) or old format
+                            if "to_add" in objects and isinstance(objects["to_add"], dict) and objects["to_add"]:
+                                # New format: objects with specific rooms
+                                graph = add_objects_to_specific_rooms(graph, objects["to_add"])
+                            elif objects and any(isinstance(v, list) for v in objects.values()):
+                                # Old format: random placement
+                                graph = add_objects(graph, objects)
+                            
                             if DESCRIPTION:
                                 graph = add_descriptions_to_objects(graph)
 
                             #save_graph(graph, os.path.join(problem_dir, graph_id+"_"+problem_id))
                             save_graph(graph, os.path.join(problem_dir, graph_id))
+                            
+                            # Save JSON version of the scene graph
+                            save_graph_json(graph, os.path.join(problem_dir, graph_id))
 
                             task_path = os.path.join(problem_dir, "task.txt")
                             with open(task_path, "w") as f:
@@ -78,11 +88,13 @@ def generate_splits(selected_dataset_splits, DESCRIPTION=False):
 if __name__=="__main__":
     
     DATASET_SPLITS = [
+        "general",
         "dining_setup",
-        "house_cleaning",
         "laundry",
-        "office_setup",    
-        "pc_assembly",
+        "office_setup",
+        "house_cleaning",
+        "dining_setup",
+        "pc_assembly"
     ]
 
     parser = argparse.ArgumentParser(description="Generate dataset splits.")

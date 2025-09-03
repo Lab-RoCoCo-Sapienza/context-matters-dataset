@@ -1,0 +1,476 @@
+{
+  "scene_info": {
+    "total_rooms": 7,
+    "total_objects": 31
+  },
+  "rooms": {
+    "1": {
+      "id": 1,
+      "category": "bathroom",
+      "label": "bathroom_1",
+      "bbox": [],
+      "objects_in_room": [
+        3,
+        4,
+        9,
+        20,
+        28
+      ]
+    },
+    "2": {
+      "id": 2,
+      "category": "bedroom",
+      "label": "bedroom_2",
+      "bbox": [],
+      "objects_in_room": [
+        16,
+        21
+      ]
+    },
+    "3": {
+      "id": 3,
+      "category": "corridor",
+      "label": "corridor_3",
+      "bbox": [],
+      "objects_in_room": [
+        26
+      ]
+    },
+    "4": {
+      "id": 4,
+      "category": "corridor",
+      "label": "corridor_4",
+      "bbox": [],
+      "objects_in_room": [
+        22,
+        24
+      ]
+    },
+    "5": {
+      "id": 5,
+      "category": "dining_room",
+      "label": "dining_room_5",
+      "bbox": [],
+      "objects_in_room": [
+        11,
+        12,
+        17,
+        18,
+        23,
+        29,
+        31
+      ]
+    },
+    "6": {
+      "id": 6,
+      "category": "kitchen",
+      "label": "kitchen_6",
+      "bbox": [],
+      "objects_in_room": [
+        1,
+        2,
+        5,
+        6,
+        19,
+        25,
+        27
+      ]
+    },
+    "7": {
+      "id": 7,
+      "category": "living_room",
+      "label": "living_room_7",
+      "bbox": [],
+      "objects_in_room": [
+        7,
+        8,
+        10,
+        13,
+        14,
+        15,
+        30
+      ]
+    }
+  },
+  "objects": {
+    "1": {
+      "id": 1,
+      "class": "oven",
+      "label": "oven_1",
+      "parent_room": 6,
+      "description": "Red oven made of steel, used for baking and cooking food at high temperatures.",
+      "bbox": [],
+      "action_affordance": [
+        "open",
+        "close",
+        "heat",
+        "turn on",
+        "turn off",
+        "clean"
+      ]
+    },
+    "2": {
+      "id": 2,
+      "class": "sink",
+      "label": "sink_2",
+      "parent_room": 6,
+      "description": "White sink made of porcelain, used for washing dishes and cleaning.",
+      "bbox": [],
+      "action_affordance": [
+        "wash",
+        "clean"
+      ]
+    },
+    "3": {
+      "id": 3,
+      "class": "sink",
+      "label": "sink_3",
+      "parent_room": 1,
+      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
+      "bbox": [],
+      "action_affordance": [
+        "wash",
+        "clean"
+      ]
+    },
+    "4": {
+      "id": 4,
+      "class": "sink",
+      "label": "sink_4",
+      "parent_room": 1,
+      "description": "White sink made of porcelain, used for washing dishes and hands.",
+      "bbox": [],
+      "action_affordance": [
+        "wash",
+        "clean"
+      ]
+    },
+    "5": {
+      "id": 5,
+      "class": "refrigerator",
+      "label": "refrigerator_5",
+      "parent_room": 6,
+      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
+      "bbox": [],
+      "action_affordance": [
+        "open",
+        "close",
+        "clean",
+        "move"
+      ]
+    },
+    "6": {
+      "id": 6,
+      "class": "refrigerator",
+      "label": "refrigerator_6",
+      "parent_room": 6,
+      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
+      "bbox": [],
+      "action_affordance": [
+        "open",
+        "close",
+        "clean",
+        "move"
+      ]
+    },
+    "7": {
+      "id": 7,
+      "class": "vase",
+      "label": "vase_7",
+      "parent_room": 7,
+      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
+      "bbox": [],
+      "action_affordance": [
+        "fill",
+        "pick up",
+        "break",
+        "clean"
+      ]
+    },
+    "8": {
+      "id": 8,
+      "class": "vase",
+      "label": "vase_8",
+      "parent_room": 7,
+      "description": "Ceramic vase made of ceramic, used for holding flowers and decorative arrangements.",
+      "bbox": [],
+      "action_affordance": [
+        "fill",
+        "pick up",
+        "break",
+        "clean"
+      ]
+    },
+    "9": {
+      "id": 9,
+      "class": "toilet",
+      "label": "toilet_9",
+      "parent_room": 1,
+      "description": "White toilet made of porcelain, used for relieving oneself and maintaining hygiene.",
+      "bbox": [],
+      "action_affordance": [
+        "sit on",
+        "clean",
+        "flush",
+        "close",
+        "open"
+      ]
+    },
+    "10": {
+      "id": 10,
+      "class": "chair",
+      "label": "chair_10",
+      "parent_room": 7,
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
+      "bbox": [],
+      "action_affordance": [
+        "sit on",
+        "step on",
+        "clean",
+        "break",
+        "move"
+      ]
+    },
+    "11": {
+      "id": 11,
+      "class": "chair",
+      "label": "chair_11",
+      "parent_room": 5,
+      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "bbox": [],
+      "action_affordance": [
+        "sit on",
+        "step on",
+        "clean",
+        "break",
+        "move"
+      ]
+    },
+    "12": {
+      "id": 12,
+      "class": "chair",
+      "label": "chair_12",
+      "parent_room": 5,
+      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "bbox": [],
+      "action_affordance": [
+        "sit on",
+        "step on",
+        "clean",
+        "break",
+        "move"
+      ]
+    },
+    "13": {
+      "id": 13,
+      "class": "couch",
+      "label": "couch_13",
+      "parent_room": 7,
+      "description": "Brown couch made of fabric, used for sitting and relaxing.",
+      "bbox": [],
+      "action_affordance": [
+        "sit on",
+        "lay on",
+        "step on",
+        "tidy",
+        "clean",
+        "move"
+      ]
+    },
+    "14": {
+      "id": 14,
+      "class": "couch",
+      "label": "couch_14",
+      "parent_room": 7,
+      "description": "Brown couch made of fabric, used for sitting and relaxing.",
+      "bbox": [],
+      "action_affordance": [
+        "sit on",
+        "lay on",
+        "step on",
+        "tidy",
+        "clean",
+        "move"
+      ]
+    },
+    "15": {
+      "id": 15,
+      "class": "potted plant",
+      "label": "potted plant_15",
+      "parent_room": 7,
+      "description": "Green potted plant made of ceramic, used for decoration and bringing life indoors.",
+      "bbox": [],
+      "action_affordance": [
+        "water",
+        "pick up",
+        "move"
+      ]
+    },
+    "16": {
+      "id": 16,
+      "class": "bed",
+      "label": "bed_16",
+      "parent_room": 2,
+      "description": "Cream bed made of wood, used for resting and sleeping.",
+      "bbox": [],
+      "action_affordance": [
+        "make",
+        "sit on",
+        "step on",
+        "lay on",
+        "move"
+      ]
+    },
+    "17": {
+      "id": 17,
+      "class": "dining table",
+      "label": "dining table_17",
+      "parent_room": 5,
+      "description": "Brown dining table made of wood, used for eating meals and hosting gatherings.",
+      "bbox": [],
+      "action_affordance": [
+        "sit at",
+        "lay on",
+        "pick up",
+        "move",
+        "clean",
+        "set",
+        "decorate"
+      ]
+    },
+    "18": {
+      "id": 18,
+      "class": "dining table",
+      "label": "dining table_18",
+      "parent_room": 5,
+      "description": "Brown dining table made of wood, used for eating meals and gatherings with family and friends.",
+      "bbox": [],
+      "action_affordance": [
+        "sit at",
+        "lay on",
+        "pick up",
+        "move",
+        "clean",
+        "set",
+        "decorate"
+      ]
+    },
+    "19": {
+      "id": 19,
+      "class": "mop",
+      "label": "mop_19",
+      "parent_room": 6,
+      "description": "Striped mop made of microfiber, used for cleaning floors and surfaces effectively.",
+      "bbox": [],
+      "action_affordance": []
+    },
+    "20": {
+      "id": 20,
+      "class": "organic_bin",
+      "label": "organic_bin_20",
+      "parent_room": 1,
+      "description": "Brown organic_bin made of plastic, used for composting food scraps and yard waste.",
+      "bbox": [],
+      "action_affordance": []
+    },
+    "21": {
+      "id": 21,
+      "class": "plastic_bin",
+      "label": "plastic_bin_21",
+      "parent_room": 2,
+      "description": "Blue plastic bin made of plastic, used for storing and organizing items.",
+      "bbox": [],
+      "action_affordance": []
+    },
+    "22": {
+      "id": 22,
+      "class": "paper_bin",
+      "label": "paper_bin_22",
+      "parent_room": 4,
+      "description": "Gray paper_bin made of plastic, used for organizing and storing paper documents.",
+      "bbox": [],
+      "action_affordance": []
+    },
+    "23": {
+      "id": 23,
+      "class": "metal_bin",
+      "label": "metal_bin_23",
+      "parent_room": 5,
+      "description": "Silver metal bin made of steel, used for storing and organizing waste.",
+      "bbox": [],
+      "action_affordance": []
+    },
+    "24": {
+      "id": 24,
+      "class": "glass_bin",
+      "label": "glass_bin_24",
+      "parent_room": 4,
+      "description": "Clear glass bin made of glass, used for storing and organizing waste.",
+      "bbox": [],
+      "action_affordance": []
+    },
+    "25": {
+      "id": 25,
+      "class": "cola_can",
+      "label": "cola_can_25",
+      "parent_room": 6,
+      "description": "Silver cola_can made of aluminum, used for drinking a refreshing beverage.",
+      "bbox": [],
+      "action_affordance": []
+    },
+    "26": {
+      "id": 26,
+      "class": "empty_glass_bottle",
+      "label": "empty_glass_bottle_26",
+      "parent_room": 3,
+      "description": "Clear glass bottle, made of glass, used for storing liquids or holding beverages.",
+      "bbox": [],
+      "action_affordance": []
+    },
+    "27": {
+      "id": 27,
+      "class": "empty_plastic_bottle",
+      "label": "empty_plastic_bottle_27",
+      "parent_room": 6,
+      "description": "Clear plastic bottle, made of plastic, used for holding liquids or recycling.",
+      "bbox": [],
+      "action_affordance": []
+    },
+    "28": {
+      "id": 28,
+      "class": "full_glass_bottle",
+      "label": "full_glass_bottle_28",
+      "parent_room": 1,
+      "description": "Clear glass bottle, made of glass, used for storing liquids like water or juice.",
+      "bbox": [],
+      "action_affordance": []
+    },
+    "29": {
+      "id": 29,
+      "class": "banana_peel",
+      "label": "banana_peel_29",
+      "parent_room": 5,
+      "description": "Yellow banana peel made of organic material, used for slipping and causing a comical fall.",
+      "bbox": [],
+      "action_affordance": []
+    },
+    "30": {
+      "id": 30,
+      "class": "rotting_apple",
+      "label": "rotting_apple_30",
+      "parent_room": 7,
+      "description": "Rotting apple made of flesh and skin, used for composting or feeding wildlife.",
+      "bbox": [],
+      "action_affordance": []
+    },
+    "31": {
+      "id": 31,
+      "class": "bucket",
+      "label": "bucket_31",
+      "parent_room": 5,
+      "description": "Red bucket made of plastic, used for carrying water or tools.",
+      "bbox": [],
+      "action_affordance": []
+    }
+  }
+}

@@ -3,24 +3,29 @@ import base64, cv2, os, json, requests
 
 base_url = "http://127.0.0.1:11434"
 chat_history = []
-api_key = os.getenv("OPENAI_API_KEY")
-client = OpenAI(api_key=api_key)
 
 def local_llm_call(prompt, question):
     headers = {"Content-Type": "application/json"}
     data = {
-        "model": "llama3.2:1b",
+        "model": "gemma3:latest",
         "prompt": question,
         "stream": False,
         "system": prompt,
         "keep_alive": "10m"
     }
 
-    response = requests.post(f"{base_url}/api/generate", headers=headers, data=json.dumps(data), stream=False)
-    return response.json()['response']
+    try:
+        response = requests.post(f"{base_url}/api/generate", headers=headers, data=json.dumps(data), stream=False)
+        response.raise_for_status()  # Check HTTP errors
+        json_response = response.json()
+        return json_response.get('response', 'No response field found')
+    except Exception as e:
+        return f"Error calling local LLM: {e}"
 
     
-def llm_call(prompt, question, temperature=None, top_p=None, model="gpt-4o"):
+def llm_call(prompt, question, temperature=None, top_p=None, model="gpt-5-mini"):
+    api_key = os.getenv("OPENAI_API_KEY")
+    client = OpenAI(api_key=api_key)
     completion_args = {
         "model": model,
         "messages": [
@@ -38,9 +43,11 @@ def llm_call(prompt, question, temperature=None, top_p=None, model="gpt-4o"):
     return (completion.choices[0].message.content)
 
 def vlm_call(prompt, image):
+    api_key = os.getenv("OPENAI_API_KEY")
+    client = OpenAI(api_key=api_key)
     encoded_image = image_to_buffer(image)
     agent = client.chat.completions.create(
-    model="gpt-4o",
+    model="gpt-5-nano",
     messages=[
         {
         "role": "user",
