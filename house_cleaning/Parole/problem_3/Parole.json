@@ -13,7 +13,7 @@
         3,
         4,
         9,
-        19
+        22
       ]
     },
     "2": {
@@ -30,16 +30,16 @@
       "category": "corridor",
       "label": "corridor_3",
       "bbox": [],
-      "objects_in_room": [
-        20
-      ]
+      "objects_in_room": []
     },
     "4": {
       "id": 4,
       "category": "corridor",
       "label": "corridor_4",
       "bbox": [],
-      "objects_in_room": []
+      "objects_in_room": [
+        20
+      ]
     },
     "5": {
       "id": 5,
@@ -63,8 +63,7 @@
         1,
         2,
         5,
-        6,
-        22
+        6
       ]
     },
     "7": {
@@ -79,6 +78,7 @@
         13,
         14,
         15,
+        19,
         23
       ]
     }
@@ -89,7 +89,7 @@
       "class": "oven",
       "label": "oven_1",
       "parent_room": 6,
-      "description": "Red oven made of steel, used for baking and cooking food at high temperatures.",
+      "description": "Shiny red oven made of steel, used for baking and cooking food to a high temperature.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -105,7 +105,7 @@
       "class": "sink",
       "label": "sink_2",
       "parent_room": 6,
-      "description": "White sink made of porcelain, used for washing dishes and hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -117,7 +117,7 @@
       "class": "sink",
       "label": "sink_3",
       "parent_room": 1,
-      "description": "White sink made of porcelain, used for washing dishes and hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -129,7 +129,7 @@
       "class": "sink",
       "label": "sink_4",
       "parent_room": 1,
-      "description": "White sink made of porcelain, used for washing dishes and hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -141,7 +141,7 @@
       "class": "refrigerator",
       "label": "refrigerator_5",
       "parent_room": 6,
-      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
+      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -155,7 +155,7 @@
       "class": "refrigerator",
       "label": "refrigerator_6",
       "parent_room": 6,
-      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
+      "description": "White refrigerator made of steel, used for keeping food cold and preserving perishables.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -169,7 +169,7 @@
       "class": "vase",
       "label": "vase_7",
       "parent_room": 7,
-      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Cream vase made of ceramic, used for holding flowers and decorative arrangements.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -197,7 +197,7 @@
       "class": "toilet",
       "label": "toilet_9",
       "parent_room": 1,
-      "description": "White toilet made of porcelain, used for eliminating waste and maintaining hygiene.",
+      "description": "White toilet made of porcelain, used for relieving oneself and maintaining hygiene.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -212,7 +212,7 @@
       "class": "chair",
       "label": "chair_10",
       "parent_room": 7,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -242,7 +242,7 @@
       "class": "chair",
       "label": "chair_12",
       "parent_room": 5,
-      "description": "Brown chair made of wood, used for sitting and resting.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -257,7 +257,7 @@
       "class": "couch",
       "label": "couch_13",
       "parent_room": 7,
-      "description": "Grey couch made of fabric, used for sitting and relaxing.",
+      "description": "Brown couch made of fabric, used for sitting and relaxing.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -273,7 +273,7 @@
       "class": "couch",
       "label": "couch_14",
       "parent_room": 7,
-      "description": "Brown couch made of leather, used for sitting and relaxing.",
+      "description": "Brown couch made of fabric, used for sitting and relaxing.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -289,7 +289,7 @@
       "class": "potted plant",
       "label": "potted plant_15",
       "parent_room": 7,
-      "description": "Green potted plant made of ceramic, used for decoration and bringing nature indoors.",
+      "description": "Green potted plant made of ceramic, used for decoration and adding life to a space.",
       "bbox": [],
       "action_affordance": [
         "water",
@@ -350,8 +350,8 @@
       "id": 19,
       "class": "rubbish_bin",
       "label": "rubbish_bin_19",
-      "parent_room": 1,
-      "description": "Grey rubbish bin made of plastic, used for disposing of waste and trash.",
+      "parent_room": 7,
+      "description": "Grey rubbish_bin made of plastic, used for discarding waste and trash.",
       "bbox": [],
       "action_affordance": []
     },
@@ -359,8 +359,8 @@
       "id": 20,
       "class": "cola_can",
       "label": "cola_can_20",
-      "parent_room": 3,
-      "description": "Silver cola_can made of aluminum, used for drinking a refreshing beverage.",
+      "parent_room": 4,
+      "description": "Silver cola_can made of aluminum, used for drinking a refreshing, fizzy beverage.",
       "bbox": [],
       "action_affordance": []
     },
@@ -369,7 +369,7 @@
       "class": "banana_peel",
       "label": "banana_peel_21",
       "parent_room": 5,
-      "description": "Yellow banana peel made of organic fruit, used for slipping and causing comedic mishaps.",
+      "description": "Yellow banana peel made of organic fruit, used for slipping and causing a comical fall.",
       "bbox": [],
       "action_affordance": []
     },
@@ -377,8 +377,8 @@
       "id": 22,
       "class": "rotting_apple",
       "label": "rotting_apple_22",
-      "parent_room": 6,
-      "description": "Rotting apple made of flesh and skin, used for consumption (though now spoiled).",
+      "parent_room": 1,
+      "description": "Rotting apple made of flesh and skin, used for feeding (though not recommended!).",
       "bbox": [],
       "action_affordance": []
     },
@@ -387,7 +387,7 @@
       "class": "bucket",
       "label": "bucket_23",
       "parent_room": 7,
-      "description": "Blue bucket made of plastic, used for carrying water or other liquids.",
+      "description": "Blue bucket made of plastic, used for carrying water or tools.",
       "bbox": [],
       "action_affordance": []
     }

@@ -1,1 +1,1 @@
-corridor_16
+bathroom_1

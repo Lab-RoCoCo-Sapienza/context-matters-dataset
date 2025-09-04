@@ -34,7 +34,7 @@
       "objects_in_room": [
         12,
         18,
-        19
+        20
       ]
     },
     "4": {
@@ -43,7 +43,7 @@
       "label": "corridor_4",
       "bbox": [],
       "objects_in_room": [
-        22
+        21
       ]
     },
     "5": {
@@ -66,8 +66,7 @@
       "label": "empty_room_7",
       "bbox": [],
       "objects_in_room": [
-        10,
-        21
+        10
       ]
     },
     "8": {
@@ -78,7 +77,7 @@
       "objects_in_room": [
         3,
         13,
-        20
+        19
       ]
     },
     "9": {
@@ -88,7 +87,8 @@
       "bbox": [],
       "objects_in_room": [
         1,
-        2
+        2,
+        22
       ]
     },
     "10": {
@@ -131,7 +131,7 @@
       "class": "kite",
       "label": "kite_2",
       "parent_room": 9,
-      "description": "Bright red kite made of nylon, used for soaring and enjoying the wind.",
+      "description": "Bright red kite made of nylon, used for soaring through the air on a windy day.",
       "bbox": [],
       "action_affordance": [
         "fly",
@@ -143,7 +143,7 @@
       "class": "kite",
       "label": "kite_3",
       "parent_room": 8,
-      "description": "Bright red kite made of nylon, used for soaring through the sky on a windy day.",
+      "description": "Bright red kite made of nylon, used for soaring through the wind and enjoying outdoor fun.",
       "bbox": [],
       "action_affordance": [
         "fly",
@@ -155,7 +155,7 @@
       "class": "microwave",
       "label": "microwave_4",
       "parent_room": 11,
-      "description": "White microwave made of metal and plastic, used for heating food quickly and efficiently.",
+      "description": "White microwave made of metal and plastic, used for heating food quickly and conveniently.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -171,7 +171,7 @@
       "class": "oven",
       "label": "oven_5",
       "parent_room": 11,
-      "description": "Shiny silver oven made of steel, used for baking and cooking food.",
+      "description": "Shiny silver oven made of metal, used for baking and cooking food to a high temperature.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -199,7 +199,7 @@
       "class": "sink",
       "label": "sink_7",
       "parent_room": 11,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -211,7 +211,7 @@
       "class": "sink",
       "label": "sink_8",
       "parent_room": 1,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -265,7 +265,7 @@
       "class": "refrigerator",
       "label": "refrigerator_12",
       "parent_room": 3,
-      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
+      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -279,7 +279,7 @@
       "class": "refrigerator",
       "label": "refrigerator_13",
       "parent_room": 8,
-      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
+      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -293,7 +293,7 @@
       "class": "clock",
       "label": "clock_14",
       "parent_room": 10,
-      "description": "Silver clock made of metal, used for telling time accurately.",
+      "description": "Classic clock, silver metal, used for telling time accurately.",
       "bbox": [],
       "action_affordance": [
         "look at",
@@ -321,7 +321,7 @@
       "class": "toilet",
       "label": "toilet_16",
       "parent_room": 1,
-      "description": "White toilet made of porcelain, used for sanitation and waste disposal.",
+      "description": "White toilet made of porcelain, used for relieving oneself and maintaining hygiene.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -336,7 +336,7 @@
       "class": "toilet",
       "label": "toilet_17",
       "parent_room": 2,
-      "description": "White toilet made of porcelain, used for eliminating waste.",
+      "description": "White toilet made of porcelain, used for relieving oneself and maintaining hygiene.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -365,8 +365,8 @@
       "id": 19,
       "class": "mop",
       "label": "mop_19",
-      "parent_room": 3,
-      "description": "Striped mop made of microfiber, used for cleaning floors and surfaces effectively.",
+      "parent_room": 8,
+      "description": "Gray mop made of synthetic fibers, used for cleaning floors and removing dirt.",
       "bbox": [],
       "action_affordance": []
     },
@@ -374,8 +374,8 @@
       "id": 20,
       "class": "rubbish_bin",
       "label": "rubbish_bin_20",
-      "parent_room": 8,
-      "description": "Grey rubbish bin made of plastic, used for collecting and disposing of waste.",
+      "parent_room": 3,
+      "description": "Grey rubbish bin made of plastic, used for discarding waste and unwanted items.",
       "bbox": [],
       "action_affordance": []
     },
@@ -383,7 +383,7 @@
       "id": 21,
       "class": "cola_can",
       "label": "cola_can_21",
-      "parent_room": 7,
+      "parent_room": 4,
       "description": "Silver cola_can made of aluminum, used for drinking a refreshing, fizzy beverage.",
       "bbox": [],
       "action_affordance": []
@@ -392,7 +392,7 @@
       "id": 22,
       "class": "bucket",
       "label": "bucket_22",
-      "parent_room": 4,
+      "parent_room": 9,
       "description": "Red bucket made of plastic, used for carrying water or tools.",
       "bbox": [],
       "action_affordance": []

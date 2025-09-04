@@ -1,1 +1,1 @@
-living_room_12
+empty_room_8

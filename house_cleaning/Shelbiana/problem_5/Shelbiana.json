@@ -13,7 +13,9 @@
         8,
         11,
         15,
-        16
+        16,
+        20,
+        21
       ]
     },
     "2": {
@@ -24,8 +26,7 @@
       "objects_in_room": [
         6,
         17,
-        22,
-        26
+        23
       ]
     },
     "3": {
@@ -35,8 +36,7 @@
       "bbox": [],
       "objects_in_room": [
         12,
-        18,
-        20
+        18
       ]
     },
     "4": {
@@ -45,7 +45,7 @@
       "label": "corridor_4",
       "bbox": [],
       "objects_in_room": [
-        27
+        22
       ]
     },
     "5": {
@@ -53,16 +53,17 @@
       "category": "corridor",
       "label": "corridor_5",
       "bbox": [],
-      "objects_in_room": [
-        28
-      ]
+      "objects_in_room": []
     },
     "6": {
       "id": 6,
       "category": "empty_room",
       "label": "empty_room_6",
       "bbox": [],
-      "objects_in_room": []
+      "objects_in_room": [
+        28,
+        29
+      ]
     },
     "7": {
       "id": 7,
@@ -70,7 +71,9 @@
       "label": "empty_room_7",
       "bbox": [],
       "objects_in_room": [
-        10
+        10,
+        19,
+        24
       ]
     },
     "8": {
@@ -81,9 +84,9 @@
       "objects_in_room": [
         3,
         13,
-        19,
-        21,
-        23
+        25,
+        27,
+        30
       ]
     },
     "9": {
@@ -93,9 +96,7 @@
       "bbox": [],
       "objects_in_room": [
         1,
-        2,
-        29,
-        30
+        2
       ]
     },
     "10": {
@@ -105,7 +106,7 @@
       "bbox": [],
       "objects_in_room": [
         14,
-        25
+        26
       ]
     },
     "11": {
@@ -117,8 +118,7 @@
         4,
         5,
         7,
-        9,
-        24
+        9
       ]
     }
   },
@@ -128,7 +128,7 @@
       "class": "kite",
       "label": "kite_1",
       "parent_room": 9,
-      "description": "Bright red kite made of nylon, used for soaring through the sky and enjoying the wind.",
+      "description": "Bright red kite made of nylon, used for soaring through the sky on a breezy day.",
       "bbox": [],
       "action_affordance": [
         "fly",
@@ -140,7 +140,7 @@
       "class": "kite",
       "label": "kite_2",
       "parent_room": 9,
-      "description": "Bright red kite made of nylon, used for soaring and enjoying the wind.",
+      "description": "Bright red kite made of nylon, used for soaring through the sky and enjoying the wind.",
       "bbox": [],
       "action_affordance": [
         "fly",
@@ -164,7 +164,7 @@
       "class": "microwave",
       "label": "microwave_4",
       "parent_room": 11,
-      "description": "White microwave made of metal and plastic, used for heating food quickly and efficiently.",
+      "description": "White microwave made of metal and plastic, used for heating food quickly.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -180,7 +180,7 @@
       "class": "oven",
       "label": "oven_5",
       "parent_room": 11,
-      "description": "Red oven made of steel, used for baking and cooking food to high temperatures.",
+      "description": "Red oven made of metal, used for baking and cooking food at high temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -196,7 +196,7 @@
       "class": "sink",
       "label": "sink_6",
       "parent_room": 2,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -208,7 +208,7 @@
       "class": "sink",
       "label": "sink_7",
       "parent_room": 11,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
+      "description": "White sink made of porcelain, used for washing dishes and hands.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -302,7 +302,7 @@
       "class": "clock",
       "label": "clock_14",
       "parent_room": 10,
-      "description": "Classic clock, silver metal, used for telling time accurately.",
+      "description": "Silver clock made of metal, used for telling time.",
       "bbox": [],
       "action_affordance": [
         "look at",
@@ -316,7 +316,7 @@
       "class": "clock",
       "label": "clock_15",
       "parent_room": 1,
-      "description": "Silver clock made of metal, used for telling time accurately.",
+      "description": "Silver clock made of metal, used for telling time.",
       "bbox": [],
       "action_affordance": [
         "look at",
@@ -330,7 +330,7 @@
       "class": "toilet",
       "label": "toilet_16",
       "parent_room": 1,
-      "description": "White toilet made of porcelain, used for sanitation and waste disposal.",
+      "description": "White toilet made of porcelain, used for relieving oneself and maintaining hygiene.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -345,7 +345,7 @@
       "class": "toilet",
       "label": "toilet_17",
       "parent_room": 2,
-      "description": "White toilet made of porcelain, used for relieving oneself and maintaining hygiene.",
+      "description": "White toilet made of porcelain, used for disposing of waste and maintaining hygiene.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -360,7 +360,7 @@
       "class": "chair",
       "label": "chair_18",
       "parent_room": 3,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Brown chair made of wood, used for sitting and resting.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -374,8 +374,8 @@
       "id": 19,
       "class": "mop",
       "label": "mop_19",
-      "parent_room": 8,
-      "description": "Blue mop made of microfiber, used for cleaning floors and surfaces effectively.",
+      "parent_room": 7,
+      "description": "Grey mop made of microfiber, used for cleaning floors and removing dirt.",
       "bbox": [],
       "action_affordance": []
     },
@@ -383,8 +383,8 @@
       "id": 20,
       "class": "organic_bin",
       "label": "organic_bin_20",
-      "parent_room": 3,
-      "description": "Brown organic_bin made of wood, used for composting food scraps and yard waste.",
+      "parent_room": 1,
+      "description": "Brown organic_bin made of plastic, used for composting food scraps and yard waste.",
       "bbox": [],
       "action_affordance": []
     },
@@ -392,7 +392,7 @@
       "id": 21,
       "class": "plastic_bin",
       "label": "plastic_bin_21",
-      "parent_room": 8,
+      "parent_room": 1,
       "description": "Blue plastic bin made of plastic, used for storing and organizing items.",
       "bbox": [],
       "action_affordance": []
@@ -401,8 +401,8 @@
       "id": 22,
       "class": "paper_bin",
       "label": "paper_bin_22",
-      "parent_room": 2,
-      "description": "Gray paper_bin made of plastic, used for organizing and storing paper materials.",
+      "parent_room": 4,
+      "description": "Grey paper_bin made of plastic, used for organizing and storing paper waste.",
       "bbox": [],
       "action_affordance": []
     },
@@ -410,8 +410,8 @@
       "id": 23,
       "class": "metal_bin",
       "label": "metal_bin_23",
-      "parent_room": 8,
-      "description": "Silver metal bin made of steel, used for storing waste and recyclables.",
+      "parent_room": 2,
+      "description": "Silver metal bin made of steel, used for storing and organizing items.",
       "bbox": [],
       "action_affordance": []
     },
@@ -419,8 +419,8 @@
       "id": 24,
       "class": "cola_can",
       "label": "cola_can_24",
-      "parent_room": 11,
-      "description": "Silver cola_can made of aluminum, used for drinking a sweet, fizzy beverage.",
+      "parent_room": 7,
+      "description": "Silver cola_can made of aluminum, used for drinking a refreshing, fizzy beverage.",
       "bbox": [],
       "action_affordance": []
     },
@@ -428,8 +428,8 @@
       "id": 25,
       "class": "empty_glass_bottle",
       "label": "empty_glass_bottle_25",
-      "parent_room": 10,
-      "description": "Clear glass bottle, made of glass, used for storing liquids or as a decorative item.",
+      "parent_room": 8,
+      "description": "Clear glass bottle, made of glass, used for storing liquids or holding decorative items.",
       "bbox": [],
       "action_affordance": []
     },
@@ -437,8 +437,8 @@
       "id": 26,
       "class": "empty_plastic_bottle",
       "label": "empty_plastic_bottle_26",
-      "parent_room": 2,
-      "description": "Clear plastic bottle, made of plastic, used for holding liquids or recycling.",
+      "parent_room": 10,
+      "description": "Clear plastic bottle made of plastic, used for holding and dispensing liquids.",
       "bbox": [],
       "action_affordance": []
     },
@@ -446,7 +446,7 @@
       "id": 27,
       "class": "full_glass_bottle",
       "label": "full_glass_bottle_27",
-      "parent_room": 4,
+      "parent_room": 8,
       "description": "Clear full_glass_bottle made of glass, used for storing liquids like water or juice.",
       "bbox": [],
       "action_affordance": []
@@ -455,8 +455,8 @@
       "id": 28,
       "class": "banana_peel",
       "label": "banana_peel_28",
-      "parent_room": 5,
-      "description": "Yellow banana peel made of organic material, used for slipping and causing humorous mishaps.",
+      "parent_room": 6,
+      "description": "Yellow banana peel made of organic fruit, used for slipping and sliding playfully.",
       "bbox": [],
       "action_affordance": []
     },
@@ -464,8 +464,8 @@
       "id": 29,
       "class": "rotting_apple",
       "label": "rotting_apple_29",
-      "parent_room": 9,
-      "description": "Rotting apple made of flesh and skin, used for feeding animals or composting.",
+      "parent_room": 6,
+      "description": "Faded red rotting apple made of flesh, used for composting or feeding wildlife.",
       "bbox": [],
       "action_affordance": []
     },
@@ -473,8 +473,8 @@
       "id": 30,
       "class": "bucket",
       "label": "bucket_30",
-      "parent_room": 9,
-      "description": "Red bucket made of plastic, used for carrying water or tools.",
+      "parent_room": 8,
+      "description": "Red bucket made of plastic, used for carrying water or small items.",
       "bbox": [],
       "action_affordance": []
     }

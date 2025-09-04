@@ -41,16 +41,16 @@
       "category": "corridor",
       "label": "corridor_4",
       "bbox": [],
-      "objects_in_room": []
+      "objects_in_room": [
+        19
+      ]
     },
     "5": {
       "id": 5,
       "category": "corridor",
       "label": "corridor_5",
       "bbox": [],
-      "objects_in_room": [
-        20
-      ]
+      "objects_in_room": []
     },
     "6": {
       "id": 6,
@@ -65,7 +65,8 @@
       "label": "empty_room_7",
       "bbox": [],
       "objects_in_room": [
-        10
+        10,
+        21
       ]
     },
     "8": {
@@ -75,8 +76,7 @@
       "bbox": [],
       "objects_in_room": [
         3,
-        13,
-        21
+        13
       ]
     },
     "9": {
@@ -86,8 +86,7 @@
       "bbox": [],
       "objects_in_room": [
         1,
-        2,
-        19
+        2
       ]
     },
     "10": {
@@ -97,7 +96,7 @@
       "bbox": [],
       "objects_in_room": [
         14,
-        22
+        20
       ]
     },
     "11": {
@@ -109,7 +108,8 @@
         4,
         5,
         7,
-        9
+        9,
+        22
       ]
     }
   },
@@ -119,7 +119,7 @@
       "class": "kite",
       "label": "kite_1",
       "parent_room": 9,
-      "description": "Bright red kite made of nylon, used for soaring high in the sky on a breezy day.",
+      "description": "Bright red kite made of nylon, used for soaring through the sky on a windy day.",
       "bbox": [],
       "action_affordance": [
         "fly",
@@ -131,7 +131,7 @@
       "class": "kite",
       "label": "kite_2",
       "parent_room": 9,
-      "description": "Bright red kite made of nylon, used for soaring through the air and enjoying a breezy day.",
+      "description": "Bright red kite made of nylon, used for soaring through the sky on a breezy day.",
       "bbox": [],
       "action_affordance": [
         "fly",
@@ -143,7 +143,7 @@
       "class": "kite",
       "label": "kite_3",
       "parent_room": 8,
-      "description": "Bright red kite made of nylon, used for soaring through the sky on a breezy day.",
+      "description": "Bright red kite made of nylon, used for soaring through the sky on a windy day.",
       "bbox": [],
       "action_affordance": [
         "fly",
@@ -171,7 +171,7 @@
       "class": "oven",
       "label": "oven_5",
       "parent_room": 11,
-      "description": "Shiny silver oven made of steel, used for baking and cooking food at high temperatures.",
+      "description": "Red oven made of steel, used for baking and cooking food to high temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -187,7 +187,7 @@
       "class": "sink",
       "label": "sink_6",
       "parent_room": 2,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -199,7 +199,7 @@
       "class": "sink",
       "label": "sink_7",
       "parent_room": 11,
-      "description": "White sink made of porcelain, used for washing dishes and hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -211,7 +211,7 @@
       "class": "sink",
       "label": "sink_8",
       "parent_room": 1,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -251,7 +251,7 @@
       "class": "refrigerator",
       "label": "refrigerator_11",
       "parent_room": 1,
-      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
+      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -293,7 +293,7 @@
       "class": "clock",
       "label": "clock_14",
       "parent_room": 10,
-      "description": "Classic clock, silver metal, used for telling time accurately.",
+      "description": "Silver clock made of metal, used for telling time.",
       "bbox": [],
       "action_affordance": [
         "look at",
@@ -307,7 +307,7 @@
       "class": "clock",
       "label": "clock_15",
       "parent_room": 1,
-      "description": "Silver clock made of metal, used for telling time.",
+      "description": "Classic clock, silver metal, used for telling time with precise accuracy.",
       "bbox": [],
       "action_affordance": [
         "look at",
@@ -321,7 +321,7 @@
       "class": "toilet",
       "label": "toilet_16",
       "parent_room": 1,
-      "description": "White toilet made of porcelain, used for eliminating waste.",
+      "description": "White toilet made of porcelain, used for relieving oneself and maintaining hygiene.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -365,8 +365,8 @@
       "id": 19,
       "class": "motherboard",
       "label": "motherboard_19",
-      "parent_room": 9,
-      "description": "Gray motherboard made of printed circuit board, used for connecting and running computer components.",
+      "parent_room": 4,
+      "description": "Gray motherboard made of printed circuit board, used for connecting and operating computer components.",
       "bbox": [],
       "action_affordance": []
     },
@@ -374,7 +374,7 @@
       "id": 20,
       "class": "cpu",
       "label": "cpu_20",
-      "parent_room": 5,
+      "parent_room": 10,
       "description": "Silver CPU made of silicon, used for processing data and running computer programs.",
       "bbox": [],
       "action_affordance": []
@@ -383,8 +383,8 @@
       "id": 21,
       "class": "ram",
       "label": "ram_21",
-      "parent_room": 8,
-      "description": "Horn made of wood, used for signaling and making noise.",
+      "parent_room": 7,
+      "description": "Horn made of horn, used for signaling or sounding an alarm.",
       "bbox": [],
       "action_affordance": []
     },
@@ -392,7 +392,7 @@
       "id": 22,
       "class": "gpu",
       "label": "gpu_22",
-      "parent_room": 10,
+      "parent_room": 11,
       "description": "Silver GPU made of silicon, used for processing graphics and accelerating computations.",
       "bbox": [],
       "action_affordance": []

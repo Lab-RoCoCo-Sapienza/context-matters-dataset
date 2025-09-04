@@ -14,7 +14,7 @@
         7,
         20,
         28,
-        40
+        35
       ]
     },
     "2": {
@@ -26,7 +26,9 @@
         5,
         21,
         29,
-        39
+        39,
+        40,
+        44
       ]
     },
     "3": {
@@ -35,10 +37,7 @@
       "label": "bedroom_3",
       "bbox": [],
       "objects_in_room": [
-        31,
-        34,
-        38,
-        43
+        31
       ]
     },
     "4": {
@@ -49,7 +48,8 @@
       "objects_in_room": [
         11,
         30,
-        32
+        32,
+        45
       ]
     },
     "5": {
@@ -57,14 +57,19 @@
       "category": "corridor",
       "label": "corridor_5",
       "bbox": [],
-      "objects_in_room": []
+      "objects_in_room": [
+        38
+      ]
     },
     "6": {
       "id": 6,
       "category": "corridor",
       "label": "corridor_6",
       "bbox": [],
-      "objects_in_room": []
+      "objects_in_room": [
+        34,
+        37
+      ]
     },
     "7": {
       "id": 7,
@@ -72,9 +77,7 @@
       "label": "corridor_7",
       "bbox": [],
       "objects_in_room": [
-        37,
-        42,
-        44
+        36
       ]
     },
     "8": {
@@ -88,7 +91,8 @@
         10,
         23,
         24,
-        33
+        33,
+        42
       ]
     },
     "9": {
@@ -104,9 +108,7 @@
         16,
         18,
         19,
-        26,
-        35,
-        45
+        26
       ]
     },
     "10": {
@@ -119,7 +121,8 @@
         22,
         25,
         27,
-        41
+        41,
+        43
       ]
     },
     "11": {
@@ -131,8 +134,7 @@
         12,
         13,
         14,
-        15,
-        36
+        15
       ]
     }
   },
@@ -142,7 +144,7 @@
       "class": "microwave",
       "label": "microwave_1",
       "parent_room": 9,
-      "description": "White microwave made of plastic and metal, used for heating food quickly and efficiently.",
+      "description": "White microwave made of metal and plastic, used for heating food quickly and efficiently.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -158,7 +160,7 @@
       "class": "oven",
       "label": "oven_2",
       "parent_room": 9,
-      "description": "Shiny silver oven made of steel, used for baking and cooking food.",
+      "description": "Shiny silver oven made of metal, used for baking and cooking food.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -174,7 +176,7 @@
       "class": "sink",
       "label": "sink_3",
       "parent_room": 1,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -186,7 +188,7 @@
       "class": "sink",
       "label": "sink_4",
       "parent_room": 9,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -198,7 +200,7 @@
       "class": "sink",
       "label": "sink_5",
       "parent_room": 2,
-      "description": "White sink made of porcelain, used for washing dishes and hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -224,7 +226,7 @@
       "class": "vase",
       "label": "vase_7",
       "parent_room": 1,
-      "description": "White vase made of ceramic, used for holding flowers or displaying decorative items.",
+      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -238,7 +240,7 @@
       "class": "vase",
       "label": "vase_8",
       "parent_room": 8,
-      "description": "Cream vase made of ceramic, used for displaying flowers or decorative items.",
+      "description": "Ceramic vase made of ceramic, used for holding flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -266,7 +268,7 @@
       "class": "vase",
       "label": "vase_10",
       "parent_room": 8,
-      "description": "Ceramic vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Ceramic vase made of ceramic, used for holding flowers or displaying decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -280,7 +282,7 @@
       "class": "vase",
       "label": "vase_11",
       "parent_room": 4,
-      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Ceramic vase made of ceramic, used for holding flowers and displaying decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -294,7 +296,7 @@
       "class": "vase",
       "label": "vase_12",
       "parent_room": 11,
-      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Cream vase made of ceramic, used for holding flowers or displaying decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -308,7 +310,7 @@
       "class": "vase",
       "label": "vase_13",
       "parent_room": 11,
-      "description": "White vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Ceramic vase made of ceramic, used for holding flowers or decorative arrangements.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -322,7 +324,7 @@
       "class": "vase",
       "label": "vase_14",
       "parent_room": 11,
-      "description": "Ceramic vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -336,7 +338,7 @@
       "class": "vase",
       "label": "vase_15",
       "parent_room": 11,
-      "description": "White vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Ceramic vase made of ceramic, used for holding flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -365,7 +367,7 @@
       "class": "bowl",
       "label": "bowl_17",
       "parent_room": 10,
-      "description": "White bowl made of ceramic, used for holding food or decorative items.",
+      "description": "Ceramic bowl made of ceramic, used for holding food or decorative items.",
       "bbox": [],
       "action_affordance": [
         "grab",
@@ -380,7 +382,7 @@
       "class": "apple",
       "label": "apple_18",
       "parent_room": 9,
-      "description": "Red apple made of fruit, used for eating and snacking.",
+      "description": "Red apple made of flesh, used for eating and snacking.",
       "bbox": [],
       "action_affordance": [
         "eat",
@@ -429,7 +431,7 @@
       "class": "toilet",
       "label": "toilet_21",
       "parent_room": 2,
-      "description": "White toilet made of porcelain, used for eliminating waste.",
+      "description": "White toilet made of porcelain, used for relieving oneself and maintaining hygiene.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -444,7 +446,7 @@
       "class": "chair",
       "label": "chair_22",
       "parent_room": 10,
-      "description": "Brown chair made of wood, used for sitting and resting.",
+      "description": "Brown chair made of wood, used for sitting and providing support.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -474,7 +476,7 @@
       "class": "chair",
       "label": "chair_24",
       "parent_room": 8,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and providing support.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -504,7 +506,7 @@
       "class": "chair",
       "label": "chair_26",
       "parent_room": 9,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -519,7 +521,7 @@
       "class": "couch",
       "label": "couch_27",
       "parent_room": 10,
-      "description": "Grey couch made of fabric, used for sitting and relaxing.",
+      "description": "Brown couch made of fabric, used for sitting and relaxing.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -535,7 +537,7 @@
       "class": "potted plant",
       "label": "potted plant_28",
       "parent_room": 1,
-      "description": "Green potted plant made of ceramic, used for adding life and beauty to a space.",
+      "description": "Green potted plant made of ceramic, used for decoration and adding life to a space.",
       "bbox": [],
       "action_affordance": [
         "water",
@@ -548,7 +550,7 @@
       "class": "potted plant",
       "label": "potted plant_29",
       "parent_room": 2,
-      "description": "Green potted plant made of ceramic, used for decoration and bringing nature indoors.",
+      "description": "Green potted plant made of ceramic, used for decoration and bringing life indoors.",
       "bbox": [],
       "action_affordance": [
         "water",
@@ -561,7 +563,7 @@
       "class": "potted plant",
       "label": "potted plant_30",
       "parent_room": 4,
-      "description": "Green potted plant made of ceramic, used for decoration and adding life to a space.",
+      "description": "Green potted plant made of ceramic, used for decoration and bringing nature indoors.",
       "bbox": [],
       "action_affordance": [
         "water",
@@ -589,7 +591,7 @@
       "class": "bed",
       "label": "bed_32",
       "parent_room": 4,
-      "description": "Cream bed made of wood, used for sleeping and resting comfortably.",
+      "description": "Cream bed made of wood, used for resting and sleeping.",
       "bbox": [],
       "action_affordance": [
         "make",
@@ -620,8 +622,8 @@
       "id": 34,
       "class": "mop",
       "label": "mop_34",
-      "parent_room": 3,
-      "description": "Blue mop made of microfiber, used for cleaning floors and spills effectively.",
+      "parent_room": 6,
+      "description": "Stripes of blue and white mop made of microfiber, used for cleaning floors and surfaces.",
       "bbox": [],
       "action_affordance": []
     },
@@ -629,8 +631,8 @@
       "id": 35,
       "class": "organic_bin",
       "label": "organic_bin_35",
-      "parent_room": 9,
-      "description": "Brown organic_bin made of wood, used for composting food scraps and yard waste.",
+      "parent_room": 1,
+      "description": "Brown organic_bin made of plastic, used for composting food scraps and yard waste.",
       "bbox": [],
       "action_affordance": []
     },
@@ -638,8 +640,8 @@
       "id": 36,
       "class": "plastic_bin",
       "label": "plastic_bin_36",
-      "parent_room": 11,
-      "description": "Blue plastic bin made of plastic, used for storing and organizing items.",
+      "parent_room": 7,
+      "description": "Grey plastic bin made of plastic, used for storing and organizing items.",
       "bbox": [],
       "action_affordance": []
     },
@@ -647,8 +649,8 @@
       "id": 37,
       "class": "paper_bin",
       "label": "paper_bin_37",
-      "parent_room": 7,
-      "description": "Gray paper_bin made of plastic, used for organizing and storing paper materials.",
+      "parent_room": 6,
+      "description": "Gray paper_bin made of plastic, used for organizing and storing paper documents.",
       "bbox": [],
       "action_affordance": []
     },
@@ -656,8 +658,8 @@
       "id": 38,
       "class": "metal_bin",
       "label": "metal_bin_38",
-      "parent_room": 3,
-      "description": "Silver metal bin made of metal, used for storing waste and recyclables.",
+      "parent_room": 5,
+      "description": "Silver metal bin made of steel, used for storing and organizing waste.",
       "bbox": [],
       "action_affordance": []
     },
@@ -666,7 +668,7 @@
       "class": "cola_can",
       "label": "cola_can_39",
       "parent_room": 2,
-      "description": "Silver cola_can made of aluminum, used for drinking a refreshing, bubbly beverage.",
+      "description": "Silver cola_can made of aluminum, used for drinking a refreshing, fizzy beverage.",
       "bbox": [],
       "action_affordance": []
     },
@@ -674,8 +676,8 @@
       "id": 40,
       "class": "empty_glass_bottle",
       "label": "empty_glass_bottle_40",
-      "parent_room": 1,
-      "description": "Clear glass bottle, made of glass, used for storing liquids or holding beverages.",
+      "parent_room": 2,
+      "description": "Clear empty_glass_bottle made of glass, used for storing liquids or holding decorative items.",
       "bbox": [],
       "action_affordance": []
     },
@@ -692,7 +694,7 @@
       "id": 42,
       "class": "full_glass_bottle",
       "label": "full_glass_bottle_42",
-      "parent_room": 7,
+      "parent_room": 8,
       "description": "Clear full_glass_bottle made of glass, used for storing liquids like water or juice.",
       "bbox": [],
       "action_affordance": []
@@ -701,8 +703,8 @@
       "id": 43,
       "class": "banana_peel",
       "label": "banana_peel_43",
-      "parent_room": 3,
-      "description": "Yellow banana peel made of organic material, used for slipping and causing a comical fall.",
+      "parent_room": 10,
+      "description": "Yellow banana peel made of organic fruit, used for slipping and causing a comical fall.",
       "bbox": [],
       "action_affordance": []
     },
@@ -710,8 +712,8 @@
       "id": 44,
       "class": "rotting_apple",
       "label": "rotting_apple_44",
-      "parent_room": 7,
-      "description": "Rotting apple made of flesh and skin, used for attracting insects or composting.",
+      "parent_room": 2,
+      "description": "Rotting apple made of flesh and skin, used for attracting insects and decaying organic matter.",
       "bbox": [],
       "action_affordance": []
     },
@@ -719,8 +721,8 @@
       "id": 45,
       "class": "bucket",
       "label": "bucket_45",
-      "parent_room": 9,
-      "description": "Blue bucket made of plastic, used for carrying water or other liquids.",
+      "parent_room": 4,
+      "description": "Red bucket made of plastic, used for carrying water or tools.",
       "bbox": [],
       "action_affordance": []
     }

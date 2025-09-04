@@ -13,7 +13,8 @@
         8,
         11,
         15,
-        16
+        16,
+        21
       ]
     },
     "2": {
@@ -48,9 +49,7 @@
       "category": "corridor",
       "label": "corridor_5",
       "bbox": [],
-      "objects_in_room": [
-        19
-      ]
+      "objects_in_room": []
     },
     "6": {
       "id": 6,
@@ -75,7 +74,8 @@
       "bbox": [],
       "objects_in_room": [
         3,
-        13
+        13,
+        19
       ]
     },
     "9": {
@@ -94,8 +94,7 @@
       "label": "empty_room_10",
       "bbox": [],
       "objects_in_room": [
-        14,
-        21
+        14
       ]
     },
     "11": {
@@ -118,7 +117,7 @@
       "class": "kite",
       "label": "kite_1",
       "parent_room": 9,
-      "description": "Bright red kite made of nylon, used for soaring through the air and enjoying a breezy day.",
+      "description": "Bright red kite made of nylon, used for soaring through the air on a windy day.",
       "bbox": [],
       "action_affordance": [
         "fly",
@@ -130,7 +129,7 @@
       "class": "kite",
       "label": "kite_2",
       "parent_room": 9,
-      "description": "Bright red kite made of nylon, used for soaring through the sky on a windy day.",
+      "description": "Bright red kite made of nylon, used for soaring through the sky on a breezy day.",
       "bbox": [],
       "action_affordance": [
         "fly",
@@ -154,7 +153,7 @@
       "class": "microwave",
       "label": "microwave_4",
       "parent_room": 11,
-      "description": "White microwave made of metal and plastic, used for heating food quickly and efficiently.",
+      "description": "White microwave made of metal and plastic, used for heating food quickly.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -170,7 +169,7 @@
       "class": "oven",
       "label": "oven_5",
       "parent_room": 11,
-      "description": "Shiny silver oven made of metal, used for baking and heating food.",
+      "description": "Red oven made of steel, used for baking and cooking food to a high temperature.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -186,7 +185,7 @@
       "class": "sink",
       "label": "sink_6",
       "parent_room": 2,
-      "description": "White sink made of porcelain, used for washing dishes and hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -198,7 +197,7 @@
       "class": "sink",
       "label": "sink_7",
       "parent_room": 11,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -210,7 +209,7 @@
       "class": "sink",
       "label": "sink_8",
       "parent_room": 1,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -222,7 +221,7 @@
       "class": "refrigerator",
       "label": "refrigerator_9",
       "parent_room": 11,
-      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
+      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -236,7 +235,7 @@
       "class": "refrigerator",
       "label": "refrigerator_10",
       "parent_room": 7,
-      "description": "White refrigerator made of steel, used for storing and preserving food at a cool temperature.",
+      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -250,7 +249,7 @@
       "class": "refrigerator",
       "label": "refrigerator_11",
       "parent_room": 1,
-      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
+      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -292,7 +291,7 @@
       "class": "clock",
       "label": "clock_14",
       "parent_room": 10,
-      "description": "Silver clock made of metal, used for telling time.",
+      "description": "Classic clock made of wood, used for telling time and marking hours.",
       "bbox": [],
       "action_affordance": [
         "look at",
@@ -306,7 +305,7 @@
       "class": "clock",
       "label": "clock_15",
       "parent_room": 1,
-      "description": "Silver clock made of metal, used for telling time.",
+      "description": "Classic clock made of metal, used for telling time accurately.",
       "bbox": [],
       "action_affordance": [
         "look at",
@@ -350,7 +349,7 @@
       "class": "chair",
       "label": "chair_18",
       "parent_room": 3,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -364,7 +363,7 @@
       "id": 19,
       "class": "desk",
       "label": "desk_19",
-      "parent_room": 5,
+      "parent_room": 8,
       "description": "Brown desk made of wood, used for working, studying, or holding items.",
       "bbox": [],
       "action_affordance": []
@@ -374,7 +373,7 @@
       "class": "lamp",
       "label": "lamp_20",
       "parent_room": 11,
-      "description": "Cream lamp made of metal, used for providing light and illumination.",
+      "description": "Warm white lamp made of metal, used for illuminating a space and providing light.",
       "bbox": [],
       "action_affordance": []
     },
@@ -382,8 +381,8 @@
       "id": 21,
       "class": "locker",
       "label": "locker_21",
-      "parent_room": 10,
-      "description": "Steel locker, made of steel, used for storing belongings securely.",
+      "parent_room": 1,
+      "description": "Steel locker, made of metal, used for storing belongings securely.",
       "bbox": [],
       "action_affordance": []
     }

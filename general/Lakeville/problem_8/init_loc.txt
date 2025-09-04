@@ -1,1 +1,1 @@
-staircase_19
+corridor_10

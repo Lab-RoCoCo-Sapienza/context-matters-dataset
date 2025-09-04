@@ -1,1 +1,1 @@
-empty_room_10
+bathroom_2

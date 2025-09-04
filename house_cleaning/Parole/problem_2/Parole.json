@@ -12,8 +12,7 @@
       "objects_in_room": [
         3,
         4,
-        9,
-        21
+        9
       ]
     },
     "2": {
@@ -30,16 +29,16 @@
       "category": "corridor",
       "label": "corridor_3",
       "bbox": [],
-      "objects_in_room": [
-        22
-      ]
+      "objects_in_room": []
     },
     "4": {
       "id": 4,
       "category": "corridor",
       "label": "corridor_4",
       "bbox": [],
-      "objects_in_room": []
+      "objects_in_room": [
+        21
+      ]
     },
     "5": {
       "id": 5,
@@ -51,7 +50,6 @@
         12,
         17,
         18,
-        19,
         20
       ]
     },
@@ -64,7 +62,8 @@
         1,
         2,
         5,
-        6
+        6,
+        19
       ]
     },
     "7": {
@@ -78,7 +77,8 @@
         10,
         13,
         14,
-        15
+        15,
+        22
       ]
     }
   },
@@ -88,7 +88,7 @@
       "class": "oven",
       "label": "oven_1",
       "parent_room": 6,
-      "description": "Red oven made of steel, used for baking and cooking food.",
+      "description": "Shiny silver oven made of metal, used for baking and cooking food.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -154,7 +154,7 @@
       "class": "refrigerator",
       "label": "refrigerator_6",
       "parent_room": 6,
-      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
+      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -168,7 +168,7 @@
       "class": "vase",
       "label": "vase_7",
       "parent_room": 7,
-      "description": "Ceramic vase made of ceramic, used for holding flowers or displaying decorative items.",
+      "description": "Ceramic vase made of ceramic, used for holding flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -182,7 +182,7 @@
       "class": "vase",
       "label": "vase_8",
       "parent_room": 7,
-      "description": "Ceramic vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -226,7 +226,7 @@
       "class": "chair",
       "label": "chair_11",
       "parent_room": 5,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and providing support.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -241,7 +241,7 @@
       "class": "chair",
       "label": "chair_12",
       "parent_room": 5,
-      "description": "Wooden chair made of wood, used for sitting and providing support.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -256,7 +256,7 @@
       "class": "couch",
       "label": "couch_13",
       "parent_room": 7,
-      "description": "Brown couch made of fabric, used for sitting and relaxing.",
+      "description": "Beige couch made of fabric, used for sitting and relaxing.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -288,7 +288,7 @@
       "class": "potted plant",
       "label": "potted plant_15",
       "parent_room": 7,
-      "description": "Green potted plant made of ceramic, used for decoration and bringing nature indoors.",
+      "description": "Green potted plant made of ceramic, used for decoration and adding life to a space.",
       "bbox": [],
       "action_affordance": [
         "water",
@@ -301,7 +301,7 @@
       "class": "bed",
       "label": "bed_16",
       "parent_room": 2,
-      "description": "Cream bed made of wood, used for sleeping and resting comfortably.",
+      "description": "Cream bed made of wood, used for resting and sleeping.",
       "bbox": [],
       "action_affordance": [
         "make",
@@ -349,8 +349,8 @@
       "id": 19,
       "class": "mop",
       "label": "mop_19",
-      "parent_room": 5,
-      "description": "Yellow mop made of microfiber, used for cleaning floors and removing dirt.",
+      "parent_room": 6,
+      "description": "Striped mop made of microfiber, used for cleaning floors and surfaces effectively.",
       "bbox": [],
       "action_affordance": []
     },
@@ -359,7 +359,7 @@
       "class": "rubbish_bin",
       "label": "rubbish_bin_20",
       "parent_room": 5,
-      "description": "Grey rubbish bin made of plastic, used for discarding waste and keeping spaces tidy.",
+      "description": "Grey rubbish bin made of plastic, used for storing and disposing of waste.",
       "bbox": [],
       "action_affordance": []
     },
@@ -367,8 +367,8 @@
       "id": 21,
       "class": "cola_can",
       "label": "cola_can_21",
-      "parent_room": 1,
-      "description": "Silver cola_can made of aluminum, used for drinking a refreshing, fizzy beverage.",
+      "parent_room": 4,
+      "description": "Silver cola_can made of aluminum, used for drinking a refreshing beverage.",
       "bbox": [],
       "action_affordance": []
     },
@@ -376,8 +376,8 @@
       "id": 22,
       "class": "bucket",
       "label": "bucket_22",
-      "parent_room": 3,
-      "description": "Red bucket made of plastic, used for carrying water or tools.",
+      "parent_room": 7,
+      "description": "Blue bucket made of plastic, used for carrying water or other liquids.",
       "bbox": [],
       "action_affordance": []
     }

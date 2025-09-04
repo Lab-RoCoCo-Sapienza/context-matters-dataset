@@ -13,8 +13,7 @@
         3,
         4,
         9,
-        24,
-        29
+        25
       ]
     },
     "2": {
@@ -23,7 +22,8 @@
       "label": "bedroom_2",
       "bbox": [],
       "objects_in_room": [
-        16
+        16,
+        29
       ]
     },
     "3": {
@@ -31,11 +31,7 @@
       "category": "corridor",
       "label": "corridor_3",
       "bbox": [],
-      "objects_in_room": [
-        19,
-        25,
-        28
-      ]
+      "objects_in_room": []
     },
     "4": {
       "id": 4,
@@ -43,7 +39,7 @@
       "label": "corridor_4",
       "bbox": [],
       "objects_in_room": [
-        22
+        23
       ]
     },
     "5": {
@@ -55,7 +51,9 @@
         11,
         12,
         17,
-        18
+        18,
+        26,
+        27
       ]
     },
     "6": {
@@ -68,9 +66,8 @@
         2,
         5,
         6,
-        20,
         21,
-        30
+        24
       ]
     },
     "7": {
@@ -85,9 +82,11 @@
         13,
         14,
         15,
-        23,
-        26,
-        27
+        19,
+        20,
+        22,
+        28,
+        30
       ]
     }
   },
@@ -97,7 +96,7 @@
       "class": "oven",
       "label": "oven_1",
       "parent_room": 6,
-      "description": "Shiny silver oven made of metal, used for baking and cooking food.",
+      "description": "Red oven made of steel, used for baking and cooking food to high temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -113,7 +112,7 @@
       "class": "sink",
       "label": "sink_2",
       "parent_room": 6,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -125,7 +124,7 @@
       "class": "sink",
       "label": "sink_3",
       "parent_room": 1,
-      "description": "White sink made of porcelain, used for washing dishes and hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -149,7 +148,7 @@
       "class": "refrigerator",
       "label": "refrigerator_5",
       "parent_room": 6,
-      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
+      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -177,7 +176,7 @@
       "class": "vase",
       "label": "vase_7",
       "parent_room": 7,
-      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "White vase made of ceramic, used for holding flowers or displaying decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -191,7 +190,7 @@
       "class": "vase",
       "label": "vase_8",
       "parent_room": 7,
-      "description": "Ceramic vase made of ceramic, used for displaying flowers or decorative items.",
+      "description": "Cream vase made of ceramic, used for holding flowers or displaying decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -220,7 +219,7 @@
       "class": "chair",
       "label": "chair_10",
       "parent_room": 7,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -235,7 +234,7 @@
       "class": "chair",
       "label": "chair_11",
       "parent_room": 5,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -265,7 +264,7 @@
       "class": "couch",
       "label": "couch_13",
       "parent_room": 7,
-      "description": "Brown couch made of leather, used for sitting and relaxing.",
+      "description": "Brown couch made of fabric, used for sitting and relaxing.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -297,7 +296,7 @@
       "class": "potted plant",
       "label": "potted plant_15",
       "parent_room": 7,
-      "description": "Green potted plant made of ceramic, used for decoration and bringing nature indoors.",
+      "description": "Green potted plant made of ceramic, used for decoration and adding life to a space.",
       "bbox": [],
       "action_affordance": [
         "water",
@@ -310,7 +309,7 @@
       "class": "bed",
       "label": "bed_16",
       "parent_room": 2,
-      "description": "Cream bed made of wood, used for resting and sleeping.",
+      "description": "Cream bed made of wood, used for sleeping and resting comfortably.",
       "bbox": [],
       "action_affordance": [
         "make",
@@ -342,7 +341,7 @@
       "class": "dining table",
       "label": "dining table_18",
       "parent_room": 5,
-      "description": "Wooden dining table made of wood, used for eating meals and hosting gatherings.",
+      "description": "Brown dining table made of wood, used for eating meals and hosting gatherings.",
       "bbox": [],
       "action_affordance": [
         "sit at",
@@ -358,8 +357,8 @@
       "id": 19,
       "class": "desk",
       "label": "desk_19",
-      "parent_room": 3,
-      "description": "Brown desk made of wood, used for working, studying, or holding items.",
+      "parent_room": 7,
+      "description": "Wooden desk made of wood, used for working, studying, or writing.",
       "bbox": [],
       "action_affordance": []
     },
@@ -367,8 +366,8 @@
       "id": 20,
       "class": "lamp",
       "label": "lamp_20",
-      "parent_room": 6,
-      "description": "Warm white lamp made of metal, used for illuminating a room and providing light.",
+      "parent_room": 7,
+      "description": "Warm white lamp made of metal, used for illuminating a space and providing light.",
       "bbox": [],
       "action_affordance": []
     },
@@ -377,7 +376,7 @@
       "class": "shelf",
       "label": "shelf_21",
       "parent_room": 6,
-      "description": "Wooden shelf made of wood, used for displaying items and organizing belongings.",
+      "description": "Wooden shelf made of wood, used for displaying books and decorative items.",
       "bbox": [],
       "action_affordance": []
     },
@@ -385,8 +384,8 @@
       "id": 22,
       "class": "locker",
       "label": "locker_22",
-      "parent_room": 4,
-      "description": "Steel locker, made of steel, used for storing belongings securely.",
+      "parent_room": 7,
+      "description": "Metal locker, made of steel, used for storing belongings securely.",
       "bbox": [],
       "action_affordance": []
     },
@@ -394,8 +393,8 @@
       "id": 23,
       "class": "book into the shelf",
       "label": "book into the shelf_23",
-      "parent_room": 7,
-      "description": "Brown book made of paper, used for reading and storing information.",
+      "parent_room": 4,
+      "description": "Brown book made of paper, used for reading and storing knowledge.",
       "bbox": [],
       "action_affordance": []
     },
@@ -403,8 +402,8 @@
       "id": 24,
       "class": "folder into the shelf",
       "label": "folder into the shelf_24",
-      "parent_room": 1,
-      "description": "Brown folder made of paper, used for organizing and storing documents.",
+      "parent_room": 6,
+      "description": "Brown folder made of paper, used for organizing documents and storing information.",
       "bbox": [],
       "action_affordance": []
     },
@@ -412,8 +411,8 @@
       "id": 25,
       "class": "pen into the shelf",
       "label": "pen into the shelf_25",
-      "parent_room": 3,
-      "description": "Black pen, made of plastic, used for writing and drawing on paper.",
+      "parent_room": 1,
+      "description": "Black pen resting on a shelf, made of plastic, used for writing and drawing.",
       "bbox": [],
       "action_affordance": []
     },
@@ -421,7 +420,7 @@
       "id": 26,
       "class": "notebook into the shelf",
       "label": "notebook into the shelf_26",
-      "parent_room": 7,
+      "parent_room": 5,
       "description": "Cream notebook made of paper, used for writing, note-taking, and sketching ideas.",
       "bbox": [],
       "action_affordance": []
@@ -430,8 +429,8 @@
       "id": 27,
       "class": "laptop into the locker",
       "label": "laptop into the locker_27",
-      "parent_room": 7,
-      "description": "Silver laptop made of metal, used for accessing information and completing tasks.",
+      "parent_room": 5,
+      "description": "Silver laptop made of metal, used for typing, browsing, and completing tasks.",
       "bbox": [],
       "action_affordance": []
     },
@@ -439,8 +438,8 @@
       "id": 28,
       "class": "mouse into the locker",
       "label": "mouse into the locker_28",
-      "parent_room": 3,
-      "description": "Grey mouse toy made of plastic, used for imaginative play and storytelling.",
+      "parent_room": 7,
+      "description": "Grey mouse, made of plastic, used for navigating computer interfaces and clicking on icons.",
       "bbox": [],
       "action_affordance": []
     },
@@ -448,8 +447,8 @@
       "id": 29,
       "class": "keyboard into the locker",
       "label": "keyboard into the locker_29",
-      "parent_room": 1,
-      "description": "Black keyboard made of plastic, used for typing messages and entering codes into a locker.",
+      "parent_room": 2,
+      "description": "Black keyboard made of plastic, used for typing and sending messages.",
       "bbox": [],
       "action_affordance": []
     },
@@ -457,8 +456,8 @@
       "id": 30,
       "class": "headphone into the locker",
       "label": "headphone into the locker_30",
-      "parent_room": 6,
-      "description": "Black headphones made of plastic, used for listening to music privately.",
+      "parent_room": 7,
+      "description": "Black headphones made of plastic, used for listening to music or podcasts while studying.",
       "bbox": [],
       "action_affordance": []
     }

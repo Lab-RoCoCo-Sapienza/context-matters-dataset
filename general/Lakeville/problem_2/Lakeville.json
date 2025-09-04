@@ -46,7 +46,9 @@
       "label": "bedroom_5",
       "bbox": [],
       "objects_in_room": [
-        78
+        78,
+        86,
+        88
       ]
     },
     "6": {
@@ -59,8 +61,7 @@
         48,
         65,
         66,
-        75,
-        87
+        75
       ]
     },
     "7": {
@@ -71,7 +72,8 @@
       "objects_in_room": [
         47,
         67,
-        77
+        77,
+        91
       ]
     },
     "8": {
@@ -83,7 +85,7 @@
         45,
         71,
         76,
-        90
+        89
       ]
     },
     "9": {
@@ -120,7 +122,9 @@
         52,
         68,
         69,
-        81
+        81,
+        85,
+        87
       ]
     },
     "13": {
@@ -165,7 +169,8 @@
       "objects_in_room": [
         5,
         6,
-        7
+        7,
+        90
       ]
     },
     "16": {
@@ -208,9 +213,7 @@
         41,
         72,
         83,
-        84,
-        85,
-        91
+        84
       ]
     },
     "18": {
@@ -222,10 +225,7 @@
         44,
         61,
         62,
-        73,
-        86,
-        88,
-        89
+        73
       ]
     },
     "19": {
@@ -242,7 +242,7 @@
       "class": "oven",
       "label": "oven_1",
       "parent_room": 16,
-      "description": "Red oven made of steel, used for baking and cooking food at high temperatures.",
+      "description": "Shiny silver oven made of steel, used for baking and cooking food at high temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -258,7 +258,7 @@
       "class": "toaster",
       "label": "toaster_2",
       "parent_room": 16,
-      "description": "Shiny silver toaster made of metal, used for browning bread and bagels to a golden crisp.",
+      "description": "Shiny silver toaster made of metal, used for browning bread and bagels quickly.",
       "bbox": [],
       "action_affordance": [
         "plug",
@@ -283,7 +283,7 @@
       "class": "refrigerator",
       "label": "refrigerator_4",
       "parent_room": 16,
-      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
+      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -312,7 +312,7 @@
       "class": "book",
       "label": "book_6",
       "parent_room": 15,
-      "description": "Brown book made of paper, used for reading and learning knowledge.",
+      "description": "Brown book made of paper, used for reading and storing information.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -327,7 +327,7 @@
       "class": "book",
       "label": "book_7",
       "parent_room": 15,
-      "description": "Brown book made of paper, used for reading and learning information.",
+      "description": "Brown book made of paper, used for reading and learning knowledge.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -357,7 +357,7 @@
       "class": "book",
       "label": "book_9",
       "parent_room": 17,
-      "description": "Brown book made of paper, used for reading and storing information.",
+      "description": "Brown book made of paper, used for reading and learning information.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -372,7 +372,7 @@
       "class": "book",
       "label": "book_10",
       "parent_room": 17,
-      "description": "Brown book made of paper, used for reading and learning information.",
+      "description": "Brown book made of paper, used for reading and storing information.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -432,7 +432,7 @@
       "class": "book",
       "label": "book_14",
       "parent_room": 17,
-      "description": "Brown book made of paper, used for reading and learning knowledge.",
+      "description": "Brown book made of paper, used for reading and storing information.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -477,7 +477,7 @@
       "class": "book",
       "label": "book_17",
       "parent_room": 17,
-      "description": "Brown book made of paper, used for reading and storing information.",
+      "description": "Brown book made of paper, used for reading and learning information.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -507,7 +507,7 @@
       "class": "book",
       "label": "book_19",
       "parent_room": 17,
-      "description": "Brown book made of paper, used for reading and learning information.",
+      "description": "Brown book made of paper, used for reading and storing information.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -522,7 +522,7 @@
       "class": "book",
       "label": "book_20",
       "parent_room": 14,
-      "description": "Brown book made of paper, used for reading and learning information.",
+      "description": "Brown book made of paper, used for reading and storing information.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -552,7 +552,7 @@
       "class": "book",
       "label": "book_22",
       "parent_room": 14,
-      "description": "Brown book made of paper, used for reading and learning information.",
+      "description": "Brown book made of paper, used for reading and storing information.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -567,7 +567,7 @@
       "class": "book",
       "label": "book_23",
       "parent_room": 14,
-      "description": "Brown book made of paper, used for reading and learning knowledge.",
+      "description": "Brown book made of paper, used for reading and storing information.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -597,7 +597,7 @@
       "class": "book",
       "label": "book_25",
       "parent_room": 14,
-      "description": "Brown book made of paper, used for reading and learning knowledge.",
+      "description": "Brown book made of paper, used for reading and learning information.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -642,7 +642,7 @@
       "class": "book",
       "label": "book_28",
       "parent_room": 12,
-      "description": "Brown book made of paper, used for reading and learning information.",
+      "description": "Brown book made of paper, used for reading and learning knowledge.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -657,7 +657,7 @@
       "class": "book",
       "label": "book_29",
       "parent_room": 14,
-      "description": "Brown book made of paper, used for reading and learning information.",
+      "description": "Brown book made of paper, used for reading and learning knowledge.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -687,7 +687,7 @@
       "class": "book",
       "label": "book_31",
       "parent_room": 14,
-      "description": "Brown book made of paper, used for reading and learning information.",
+      "description": "Brown book made of paper, used for reading and storing information.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -702,7 +702,7 @@
       "class": "book",
       "label": "book_32",
       "parent_room": 14,
-      "description": "Brown book made of paper, used for reading and learning information.",
+      "description": "Brown book made of paper, used for reading and storing information.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -717,7 +717,7 @@
       "class": "book",
       "label": "book_33",
       "parent_room": 17,
-      "description": "Brown book made of paper, used for reading and learning information.",
+      "description": "Brown book made of paper, used for reading and storing information.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -792,7 +792,7 @@
       "class": "book",
       "label": "book_38",
       "parent_room": 17,
-      "description": "Brown book made of paper, used for reading and learning information.",
+      "description": "Brown book made of paper, used for reading and learning knowledge.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -822,7 +822,7 @@
       "class": "cup",
       "label": "cup_40",
       "parent_room": 14,
-      "description": "White cup made of ceramic, used for holding and drinking beverages.",
+      "description": "White cup made of ceramic, used for drinking liquids.",
       "bbox": [],
       "action_affordance": [
         "grab",
@@ -838,7 +838,7 @@
       "class": "vase",
       "label": "vase_41",
       "parent_room": 17,
-      "description": "Cream vase made of ceramic, used for holding flowers or displaying decorative items.",
+      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -852,7 +852,7 @@
       "class": "vase",
       "label": "vase_42",
       "parent_room": 3,
-      "description": "Ceramic vase made of ceramic, used for holding flowers or decorative arrangements.",
+      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -866,7 +866,7 @@
       "class": "vase",
       "label": "vase_43",
       "parent_room": 3,
-      "description": "Ceramic vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -894,7 +894,7 @@
       "class": "vase",
       "label": "vase_45",
       "parent_room": 8,
-      "description": "Cream vase made of ceramic, used for holding flowers or displaying decorative items.",
+      "description": "Ceramic vase made of ceramic, used for holding flowers and displaying arrangements.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -908,7 +908,7 @@
       "class": "vase",
       "label": "vase_46",
       "parent_room": 13,
-      "description": "White vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Cream vase made of ceramic, used for holding flowers or displaying decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -922,7 +922,7 @@
       "class": "vase",
       "label": "vase_47",
       "parent_room": 7,
-      "description": "Ceramic vase made of ceramic, used for holding flowers and decorative arrangements.",
+      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -936,7 +936,7 @@
       "class": "vase",
       "label": "vase_48",
       "parent_room": 6,
-      "description": "White vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Cream vase made of ceramic, used for displaying flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -950,7 +950,7 @@
       "class": "vase",
       "label": "vase_49",
       "parent_room": 12,
-      "description": "Cream vase made of ceramic, used for holding flowers or displaying decorative items.",
+      "description": "Ceramic vase made of ceramic, used for holding flowers and displaying decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -964,7 +964,7 @@
       "class": "vase",
       "label": "vase_50",
       "parent_room": 2,
-      "description": "Ceramic vase made of ceramic, used for holding flowers or displaying decorative items.",
+      "description": "Cream vase made of ceramic, used for holding flowers or displaying decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -993,7 +993,7 @@
       "class": "bowl",
       "label": "bowl_52",
       "parent_room": 12,
-      "description": "Ceramic bowl made of ceramic, used for holding food or decorative items.",
+      "description": "White bowl made of ceramic, used for holding food or displaying items.",
       "bbox": [],
       "action_affordance": [
         "grab",
@@ -1008,7 +1008,7 @@
       "class": "chair",
       "label": "chair_53",
       "parent_room": 13,
-      "description": "Wooden chair made of wood, used for sitting and providing support.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -1068,7 +1068,7 @@
       "class": "chair",
       "label": "chair_57",
       "parent_room": null,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -1113,7 +1113,7 @@
       "class": "chair",
       "label": "chair_60",
       "parent_room": null,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -1128,7 +1128,7 @@
       "class": "chair",
       "label": "chair_61",
       "parent_room": 18,
-      "description": "Brown wooden chair, made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -1158,7 +1158,7 @@
       "class": "chair",
       "label": "chair_63",
       "parent_room": 13,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -1173,7 +1173,7 @@
       "class": "chair",
       "label": "chair_64",
       "parent_room": 13,
-      "description": "Wooden chair made of wood, used for sitting and providing support.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -1188,7 +1188,7 @@
       "class": "chair",
       "label": "chair_65",
       "parent_room": 6,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -1233,7 +1233,7 @@
       "class": "chair",
       "label": "chair_68",
       "parent_room": 12,
-      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and providing support.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -1248,7 +1248,7 @@
       "class": "chair",
       "label": "chair_69",
       "parent_room": 12,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -1278,7 +1278,7 @@
       "class": "couch",
       "label": "couch_71",
       "parent_room": 8,
-      "description": "Beige couch made of fabric, used for sitting and relaxing.",
+      "description": "Brown couch made of leather, used for sitting and relaxing.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -1294,7 +1294,7 @@
       "class": "couch",
       "label": "couch_72",
       "parent_room": 17,
-      "description": "Beige couch made of fabric, used for relaxing and sitting.",
+      "description": "Brown couch made of fabric, used for sitting and relaxing.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -1310,7 +1310,7 @@
       "class": "couch",
       "label": "couch_73",
       "parent_room": 18,
-      "description": "Grey couch made of fabric, used for sitting and relaxing.",
+      "description": "Brown couch made of fabric, used for sitting and relaxing.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -1339,7 +1339,7 @@
       "class": "bed",
       "label": "bed_75",
       "parent_room": 6,
-      "description": "Cream bed made of wood, used for resting and sleeping.",
+      "description": "Cream bed made of wood, used for sleeping and resting comfortably.",
       "bbox": [],
       "action_affordance": [
         "make",
@@ -1369,7 +1369,7 @@
       "class": "bed",
       "label": "bed_77",
       "parent_room": 7,
-      "description": "Cream bed made of wood, used for resting and sleeping.",
+      "description": "Cream bed made of wood, used for resting and sleeping comfortably.",
       "bbox": [],
       "action_affordance": [
         "make",
@@ -1433,7 +1433,7 @@
       "class": "dining table",
       "label": "dining table_81",
       "parent_room": 12,
-      "description": "Brown dining table made of wood, used for eating meals and gatherings with family and friends.",
+      "description": "Brown dining table made of wood, used for eating meals and gathering with family.",
       "bbox": [],
       "action_affordance": [
         "sit at",
@@ -1450,7 +1450,7 @@
       "class": "toilet",
       "label": "toilet_82",
       "parent_room": 1,
-      "description": "White toilet made of porcelain, used for eliminating waste and maintaining hygiene.",
+      "description": "White toilet made of porcelain, used for relieving oneself and maintaining hygiene.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -1465,7 +1465,7 @@
       "class": "tv",
       "label": "tv_83",
       "parent_room": 17,
-      "description": "Black TV made of plastic and glass, used for watching movies and shows.",
+      "description": "Black TV made of plastic and glass, used for watching movies and television shows.",
       "bbox": [],
       "action_affordance": [
         "turn on",
@@ -1480,7 +1480,7 @@
       "class": "bookshelf",
       "label": "bookshelf_84",
       "parent_room": 17,
-      "description": "Wooden bookshelf made of wood, used for storing books and displaying items.",
+      "description": "Wooden bookshelf made of wood, used for storing books and displaying decorative items.",
       "bbox": [],
       "action_affordance": []
     },
@@ -1488,7 +1488,7 @@
       "id": 85,
       "class": "book",
       "label": "book_85",
-      "parent_room": 17,
+      "parent_room": 12,
       "description": "Brown book made of paper, used for reading and learning information.",
       "bbox": [],
       "action_affordance": []
@@ -1497,7 +1497,7 @@
       "id": 86,
       "class": "book",
       "label": "book_86",
-      "parent_room": 18,
+      "parent_room": 5,
       "description": "Brown book made of paper, used for reading and learning information.",
       "bbox": [],
       "action_affordance": []
@@ -1506,7 +1506,7 @@
       "id": 87,
       "class": "book",
       "label": "book_87",
-      "parent_room": 6,
+      "parent_room": 12,
       "description": "Brown book made of paper, used for reading and learning information.",
       "bbox": [],
       "action_affordance": []
@@ -1515,7 +1515,7 @@
       "id": 88,
       "class": "book",
       "label": "book_88",
-      "parent_room": 18,
+      "parent_room": 5,
       "description": "Brown book made of paper, used for reading and learning information.",
       "bbox": [],
       "action_affordance": []
@@ -1524,8 +1524,8 @@
       "id": 89,
       "class": "book",
       "label": "book_89",
-      "parent_room": 18,
-      "description": "Brown book made of paper, used for reading and learning information.",
+      "parent_room": 8,
+      "description": "Brown book made of paper, used for reading and storing information.",
       "bbox": [],
       "action_affordance": []
     },
@@ -1533,7 +1533,7 @@
       "id": 90,
       "class": "book",
       "label": "book_90",
-      "parent_room": 8,
+      "parent_room": 15,
       "description": "Brown book made of paper, used for reading and learning information.",
       "bbox": [],
       "action_affordance": []
@@ -1542,8 +1542,8 @@
       "id": 91,
       "class": "book",
       "label": "book_91",
-      "parent_room": 17,
-      "description": "Brown book made of paper, used for reading and learning knowledge.",
+      "parent_room": 7,
+      "description": "Brown book made of paper, used for reading and learning information.",
       "bbox": [],
       "action_affordance": []
     }

@@ -12,9 +12,8 @@
       "objects_in_room": [
         4,
         13,
-        17,
-        19,
-        38
+        20,
+        39
       ]
     },
     "2": {
@@ -24,8 +23,9 @@
       "bbox": [],
       "objects_in_room": [
         11,
-        15,
-        34
+        22,
+        23,
+        27
       ]
     },
     "3": {
@@ -36,10 +36,8 @@
       "objects_in_room": [
         5,
         6,
-        14,
-        29,
-        31,
-        41
+        30,
+        31
       ]
     },
     "4": {
@@ -48,10 +46,12 @@
       "label": "corridor_4",
       "bbox": [],
       "objects_in_room": [
-        20,
         24,
-        28,
-        37
+        25,
+        26,
+        34,
+        38,
+        40
       ]
     },
     "5": {
@@ -61,10 +61,9 @@
       "bbox": [],
       "objects_in_room": [
         7,
-        18,
-        21,
-        30,
-        36
+        35,
+        36,
+        42
       ]
     },
     "6": {
@@ -74,7 +73,8 @@
       "bbox": [],
       "objects_in_room": [
         9,
-        42
+        16,
+        19
       ]
     },
     "7": {
@@ -85,11 +85,8 @@
       "objects_in_room": [
         10,
         12,
-        16,
-        23,
-        25,
-        32,
-        33
+        18,
+        32
       ]
     },
     "8": {
@@ -98,9 +95,13 @@
       "label": "empty_room_8",
       "bbox": [],
       "objects_in_room": [
-        22,
-        26,
-        35
+        14,
+        15,
+        17,
+        28,
+        33,
+        37,
+        41
       ]
     },
     "9": {
@@ -113,9 +114,8 @@
         2,
         3,
         8,
-        27,
-        39,
-        40
+        21,
+        29
       ]
     }
   },
@@ -125,7 +125,7 @@
       "class": "microwave",
       "label": "microwave_1",
       "parent_room": 9,
-      "description": "White microwave made of metal and plastic, used for heating food quickly.",
+      "description": "White microwave made of metal and plastic, used for heating food quickly and efficiently.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -141,7 +141,7 @@
       "class": "oven",
       "label": "oven_2",
       "parent_room": 9,
-      "description": "Red oven made of steel, used for baking and cooking food to heat and cook.",
+      "description": "Shiny silver oven made of metal, used for baking and cooking food.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -157,7 +157,7 @@
       "class": "sink",
       "label": "sink_3",
       "parent_room": 9,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -169,7 +169,7 @@
       "class": "sink",
       "label": "sink_4",
       "parent_room": 1,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
+      "description": "White sink made of porcelain, used for washing dishes and hands.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -195,7 +195,7 @@
       "class": "refrigerator",
       "label": "refrigerator_6",
       "parent_room": 3,
-      "description": "White refrigerator made of steel, used for keeping food cold and preserving perishables.",
+      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -209,7 +209,7 @@
       "class": "refrigerator",
       "label": "refrigerator_7",
       "parent_room": 5,
-      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
+      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -223,7 +223,7 @@
       "class": "refrigerator",
       "label": "refrigerator_8",
       "parent_room": 9,
-      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
+      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -237,7 +237,7 @@
       "class": "refrigerator",
       "label": "refrigerator_9",
       "parent_room": 6,
-      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
+      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -251,7 +251,7 @@
       "class": "refrigerator",
       "label": "refrigerator_10",
       "parent_room": 7,
-      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
+      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -308,7 +308,7 @@
       "id": 14,
       "class": "pants",
       "label": "pants_14",
-      "parent_room": 3,
+      "parent_room": 8,
       "description": "Blue pants made of denim, used for wearing and protecting the legs.",
       "bbox": [],
       "action_affordance": []
@@ -317,7 +317,7 @@
       "id": 15,
       "class": "dirty_pants",
       "label": "dirty_pants_15",
-      "parent_room": 2,
+      "parent_room": 8,
       "description": "Gray dirty_pants made of cotton, used for casual wear or lounging.",
       "bbox": [],
       "action_affordance": []
@@ -326,8 +326,8 @@
       "id": 16,
       "class": "shirt",
       "label": "shirt_16",
-      "parent_room": 7,
-      "description": "White shirt made of cotton, used for wearing and covering the body.",
+      "parent_room": 6,
+      "description": "White shirt made of cotton, used for wearing and protection from the elements.",
       "bbox": [],
       "action_affordance": []
     },
@@ -335,7 +335,7 @@
       "id": 17,
       "class": "dirty_shirt",
       "label": "dirty_shirt_17",
-      "parent_room": 1,
+      "parent_room": 8,
       "description": "Gray dirty_shirt made of cotton, used for covering the body.",
       "bbox": [],
       "action_affordance": []
@@ -344,8 +344,8 @@
       "id": 18,
       "class": "socks",
       "label": "socks_18",
-      "parent_room": 5,
-      "description": "Striped socks made of cotton, used for keeping feet warm and comfortable.",
+      "parent_room": 7,
+      "description": "White socks made of cotton, used for warmth and protecting feet.",
       "bbox": [],
       "action_affordance": []
     },
@@ -353,8 +353,8 @@
       "id": 19,
       "class": "dirty_socks",
       "label": "dirty_socks_19",
-      "parent_room": 1,
-      "description": "Gray dirty_socks made of cotton, used for foot protection and warmth during activity.",
+      "parent_room": 6,
+      "description": "Grey dirty_socks made of cotton, used for foot protection and absorbing sweat.",
       "bbox": [],
       "action_affordance": []
     },
@@ -362,7 +362,7 @@
       "id": 20,
       "class": "underwear",
       "label": "underwear_20",
-      "parent_room": 4,
+      "parent_room": 1,
       "description": "White underwear made of cotton, used for comfort and protection during wear.",
       "bbox": [],
       "action_affordance": []
@@ -371,8 +371,8 @@
       "id": 21,
       "class": "dirty_underwear",
       "label": "dirty_underwear_21",
-      "parent_room": 5,
-      "description": "Gray dirty_underwear made of cotton, used for absorbing bodily fluids and hygiene.",
+      "parent_room": 9,
+      "description": "Dirty underwear made of cotton, used for absorbing bodily fluids and hygiene.",
       "bbox": [],
       "action_affordance": []
     },
@@ -380,8 +380,8 @@
       "id": 22,
       "class": "jacket",
       "label": "jacket_22",
-      "parent_room": 8,
-      "description": "Brown jacket made of leather, used for protection from the elements and stylish outerwear.",
+      "parent_room": 2,
+      "description": "Brown jacket made of leather, used for protection from the elements and stylish warmth.",
       "bbox": [],
       "action_affordance": []
     },
@@ -389,8 +389,8 @@
       "id": 23,
       "class": "dirty_jacket",
       "label": "dirty_jacket_23",
-      "parent_room": 7,
-      "description": "Brown dirty jacket made of denim, used for protection and outerwear.",
+      "parent_room": 2,
+      "description": "Brown dirty jacket made of denim, used for protection and outdoor activities.",
       "bbox": [],
       "action_affordance": []
     },
@@ -407,8 +407,8 @@
       "id": 25,
       "class": "dirty_plate",
       "label": "dirty_plate_25",
-      "parent_room": 7,
-      "description": "Gray dirty_plate made of ceramic, used for holding food or serving dishes.",
+      "parent_room": 4,
+      "description": "Dirty plate made of ceramic, used for serving and eating food.",
       "bbox": [],
       "action_affordance": []
     },
@@ -416,8 +416,8 @@
       "id": 26,
       "class": "knife",
       "label": "knife_26",
-      "parent_room": 8,
-      "description": "Silver knife made of steel, used for cutting food or defense.",
+      "parent_room": 4,
+      "description": "Silver knife made of steel, used for cutting food or self-defense.",
       "bbox": [],
       "action_affordance": []
     },
@@ -425,8 +425,8 @@
       "id": 27,
       "class": "dirty_knife",
       "label": "dirty_knife_27",
-      "parent_room": 9,
-      "description": "Rusty knife made of steel, used for cutting food or defense.",
+      "parent_room": 2,
+      "description": "Rusty knife made of steel, used for cutting food or self-defense.",
       "bbox": [],
       "action_affordance": []
     },
@@ -434,7 +434,7 @@
       "id": 28,
       "class": "drinking_glass",
       "label": "drinking_glass_28",
-      "parent_room": 4,
+      "parent_room": 8,
       "description": "Clear drinking_glass made of glass, used for holding and drinking liquids.",
       "bbox": [],
       "action_affordance": []
@@ -443,8 +443,8 @@
       "id": 29,
       "class": "dirty_drinking_glass",
       "label": "dirty_drinking_glass_29",
-      "parent_room": 3,
-      "description": "Clear dirty drinking glass made of glass, used for drinking beverages, likely water or juice.",
+      "parent_room": 9,
+      "description": "Clear drinking glass made of glass, used for drinking water or other beverages.",
       "bbox": [],
       "action_affordance": []
     },
@@ -452,7 +452,7 @@
       "id": 30,
       "class": "fork",
       "label": "fork_30",
-      "parent_room": 5,
+      "parent_room": 3,
       "description": "Silver fork made of stainless steel, used for eating food.",
       "bbox": [],
       "action_affordance": []
@@ -462,7 +462,7 @@
       "class": "dirty_fork",
       "label": "dirty_fork_31",
       "parent_room": 3,
-      "description": "Silver dirty fork made of metal, used for eating food.",
+      "description": "Silver dirty fork made of stainless steel, used for eating food.",
       "bbox": [],
       "action_affordance": []
     },
@@ -479,8 +479,8 @@
       "id": 33,
       "class": "dirty_spoon",
       "label": "dirty_spoon_33",
-      "parent_room": 7,
-      "description": "Silver spoon, made of metal, used for eating food.",
+      "parent_room": 8,
+      "description": "Rusty spoon made of metal, used for eating food.",
       "bbox": [],
       "action_affordance": []
     },
@@ -488,7 +488,7 @@
       "id": 34,
       "class": "bowl",
       "label": "bowl_34",
-      "parent_room": 2,
+      "parent_room": 4,
       "description": "Ceramic bowl made of ceramic, used for holding food or decorative items.",
       "bbox": [],
       "action_affordance": []
@@ -497,8 +497,8 @@
       "id": 35,
       "class": "dirty_bowl",
       "label": "dirty_bowl_35",
-      "parent_room": 8,
-      "description": "Dirty bowl made of ceramic, used for holding food or drinks.",
+      "parent_room": 5,
+      "description": "Dirty bowl made of ceramic, used for holding food or liquids.",
       "bbox": [],
       "action_affordance": []
     },
@@ -507,7 +507,7 @@
       "class": "pot",
       "label": "pot_36",
       "parent_room": 5,
-      "description": "Ceramic pot made of clay, used for holding and cooking food.",
+      "description": "Terracotta pot made of clay, used for growing plants and holding soil.",
       "bbox": [],
       "action_affordance": []
     },
@@ -515,8 +515,8 @@
       "id": 37,
       "class": "dirty_pot",
       "label": "dirty_pot_37",
-      "parent_room": 4,
-      "description": "Dirty pot made of ceramic, used for cooking and boiling food.",
+      "parent_room": 8,
+      "description": "Grey dirty_pot made of ceramic, used for cooking and boiling food.",
       "bbox": [],
       "action_affordance": []
     },
@@ -524,8 +524,8 @@
       "id": 38,
       "class": "pan",
       "label": "pan_38",
-      "parent_room": 1,
-      "description": "Shiny silver pan made of metal, used for cooking food on a stovetop.",
+      "parent_room": 4,
+      "description": "Silver pan made of stainless steel, used for cooking and searing food on a stovetop.",
       "bbox": [],
       "action_affordance": []
     },
@@ -533,8 +533,8 @@
       "id": 39,
       "class": "dirty_pan",
       "label": "dirty_pan_39",
-      "parent_room": 9,
-      "description": "Gray dirty_pan made of metal, used for cooking and washing dishes.",
+      "parent_room": 1,
+      "description": "Grey dirty_pan made of metal, used for cooking and holding food after meals.",
       "bbox": [],
       "action_affordance": []
     },
@@ -542,8 +542,8 @@
       "id": 40,
       "class": "detergent",
       "label": "detergent_40",
-      "parent_room": 9,
-      "description": "White detergent made of plastic, used for cleaning surfaces and removing stains.",
+      "parent_room": 4,
+      "description": "White detergent made of plastic, used for cleaning clothes and surfaces.",
       "bbox": [],
       "action_affordance": []
     },
@@ -551,8 +551,8 @@
       "id": 41,
       "class": "dishwasher",
       "label": "dishwasher_41",
-      "parent_room": 3,
-      "description": "Silver dishwasher made of stainless steel, used for cleaning dishes quickly and efficiently.",
+      "parent_room": 8,
+      "description": "Stainless steel dishwasher made of metal, used for cleaning dishes automatically.",
       "bbox": [],
       "action_affordance": []
     },
@@ -560,7 +560,7 @@
       "id": 42,
       "class": "dish_soap",
       "label": "dish_soap_42",
-      "parent_room": 6,
+      "parent_room": 5,
       "description": "White dish soap made of plastic, used for cleaning dishes and surfaces.",
       "bbox": [],
       "action_affordance": []

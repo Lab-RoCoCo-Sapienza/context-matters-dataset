@@ -1,1 +1,1 @@
-corridor_15
+empty_room_22

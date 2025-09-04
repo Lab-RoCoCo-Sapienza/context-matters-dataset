@@ -7,6 +7,9 @@ import numpy as np
 
 from agent import llm_call, local_llm_call
 
+random.seed(412)
+np.random.seed(423)
+
 def read_graph_from_path(path: Path) -> Dict:
     """
     Read 3DSG from file (.npz) and returns it stored in a dictionary

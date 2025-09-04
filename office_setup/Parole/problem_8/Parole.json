@@ -62,7 +62,7 @@
         2,
         5,
         6,
-        21
+        20
       ]
     },
     "7": {
@@ -77,7 +77,7 @@
         13,
         14,
         15,
-        20
+        21
       ]
     }
   },
@@ -87,7 +87,7 @@
       "class": "oven",
       "label": "oven_1",
       "parent_room": 6,
-      "description": "Red oven made of metal, used for baking and cooking food.",
+      "description": "Red oven made of metal, used for baking and cooking food at high temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -103,7 +103,7 @@
       "class": "sink",
       "label": "sink_2",
       "parent_room": 6,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -115,7 +115,7 @@
       "class": "sink",
       "label": "sink_3",
       "parent_room": 1,
-      "description": "White sink made of porcelain, used for washing dishes and hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -167,7 +167,7 @@
       "class": "vase",
       "label": "vase_7",
       "parent_room": 7,
-      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Cream vase made of ceramic, used for displaying flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -181,7 +181,7 @@
       "class": "vase",
       "label": "vase_8",
       "parent_room": 7,
-      "description": "Cream vase made of ceramic, used for holding flowers and decorative arrangements.",
+      "description": "Cream vase made of ceramic, used for holding flowers or displaying decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -225,7 +225,7 @@
       "class": "chair",
       "label": "chair_11",
       "parent_room": 5,
-      "description": "Brown chair made of wood, used for sitting and resting.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -240,7 +240,7 @@
       "class": "chair",
       "label": "chair_12",
       "parent_room": 5,
-      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
+      "description": "Brown chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -349,7 +349,7 @@
       "class": "desk",
       "label": "desk_19",
       "parent_room": 4,
-      "description": "Brown desk made of wood, used for working, studying, or writing.",
+      "description": "Wooden desk made of wood, used for working, studying, or holding items.",
       "bbox": [],
       "action_affordance": []
     },
@@ -357,8 +357,8 @@
       "id": 20,
       "class": "lamp",
       "label": "lamp_20",
-      "parent_room": 7,
-      "description": "Warm white lamp made of metal, used for illuminating a room.",
+      "parent_room": 6,
+      "description": "Warm white lamp made of metal, used for illuminating a space.",
       "bbox": [],
       "action_affordance": []
     },
@@ -366,7 +366,7 @@
       "id": 21,
       "class": "locker",
       "label": "locker_21",
-      "parent_room": 6,
+      "parent_room": 7,
       "description": "Steel locker, made of steel, used for storing belongings securely.",
       "bbox": [],
       "action_affordance": []

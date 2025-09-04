@@ -15,8 +15,7 @@
         20,
         28,
         34,
-        37,
-        39
+        41
       ]
     },
     "2": {
@@ -27,8 +26,7 @@
       "objects_in_room": [
         5,
         21,
-        29,
-        40
+        29
       ]
     },
     "3": {
@@ -37,7 +35,8 @@
       "label": "bedroom_3",
       "bbox": [],
       "objects_in_room": [
-        31
+        31,
+        38
       ]
     },
     "4": {
@@ -49,7 +48,8 @@
         11,
         30,
         32,
-        43
+        35,
+        36
       ]
     },
     "5": {
@@ -57,24 +57,27 @@
       "category": "corridor",
       "label": "corridor_5",
       "bbox": [],
-      "objects_in_room": []
+      "objects_in_room": [
+        40
+      ]
     },
     "6": {
       "id": 6,
       "category": "corridor",
       "label": "corridor_6",
       "bbox": [],
-      "objects_in_room": []
+      "objects_in_room": [
+        37,
+        39,
+        44
+      ]
     },
     "7": {
       "id": 7,
       "category": "corridor",
       "label": "corridor_7",
       "bbox": [],
-      "objects_in_room": [
-        35,
-        41
-      ]
+      "objects_in_room": []
     },
     "8": {
       "id": 8,
@@ -87,9 +90,7 @@
         10,
         23,
         24,
-        33,
-        36,
-        38
+        33
       ]
     },
     "9": {
@@ -105,7 +106,9 @@
         16,
         18,
         19,
-        26
+        26,
+        42,
+        43
       ]
     },
     "10": {
@@ -117,8 +120,7 @@
         17,
         22,
         25,
-        27,
-        44
+        27
       ]
     },
     "11": {
@@ -130,8 +132,7 @@
         12,
         13,
         14,
-        15,
-        42
+        15
       ]
     }
   },
@@ -157,7 +158,7 @@
       "class": "oven",
       "label": "oven_2",
       "parent_room": 9,
-      "description": "Shiny silver oven made of steel, used for baking and cooking food.",
+      "description": "Red oven made of steel, used for baking and cooking food to a high temperature.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -173,7 +174,7 @@
       "class": "sink",
       "label": "sink_3",
       "parent_room": 1,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -185,7 +186,7 @@
       "class": "sink",
       "label": "sink_4",
       "parent_room": 9,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
+      "description": "White sink made of porcelain, used for washing dishes and hands.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -197,7 +198,7 @@
       "class": "sink",
       "label": "sink_5",
       "parent_room": 2,
-      "description": "White sink made of porcelain, used for washing dishes and hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -237,7 +238,7 @@
       "class": "vase",
       "label": "vase_8",
       "parent_room": 8,
-      "description": "Ceramic vase made of ceramic, used for holding flowers or displaying decorative items.",
+      "description": "Cream vase made of ceramic, used for holding flowers and displaying decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -251,7 +252,7 @@
       "class": "vase",
       "label": "vase_9",
       "parent_room": 8,
-      "description": "Cream vase made of ceramic, used for displaying flowers or holding decorative items.",
+      "description": "Cream vase made of ceramic, used for holding flowers or displaying decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -265,7 +266,7 @@
       "class": "vase",
       "label": "vase_10",
       "parent_room": 8,
-      "description": "White vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Cream vase made of ceramic, used for holding flowers and displaying decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -279,7 +280,7 @@
       "class": "vase",
       "label": "vase_11",
       "parent_room": 4,
-      "description": "Ceramic vase made of ceramic, used for holding flowers or decorative arrangements.",
+      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -293,7 +294,7 @@
       "class": "vase",
       "label": "vase_12",
       "parent_room": 11,
-      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Ceramic vase made of ceramic, used for displaying flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -307,7 +308,7 @@
       "class": "vase",
       "label": "vase_13",
       "parent_room": 11,
-      "description": "Ceramic vase made of ceramic, used for displaying flowers or decorative items.",
+      "description": "Cream vase made of ceramic, used for holding flowers or displaying decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -321,7 +322,7 @@
       "class": "vase",
       "label": "vase_14",
       "parent_room": 11,
-      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Cream vase made of ceramic, used for displaying flowers or decorative items.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -335,7 +336,7 @@
       "class": "vase",
       "label": "vase_15",
       "parent_room": 11,
-      "description": "Cream vase made of ceramic, used for holding flowers or decorative items.",
+      "description": "Ceramic vase made of ceramic, used for displaying flowers or plants.",
       "bbox": [],
       "action_affordance": [
         "fill",
@@ -349,7 +350,7 @@
       "class": "bowl",
       "label": "bowl_16",
       "parent_room": 9,
-      "description": "Ceramic bowl made of ceramic, used for holding food or decorative items.",
+      "description": "Ceramic bowl made of ceramic, used for holding food or displaying items.",
       "bbox": [],
       "action_affordance": [
         "grab",
@@ -379,7 +380,7 @@
       "class": "apple",
       "label": "apple_18",
       "parent_room": 9,
-      "description": "Red apple made of fruit, used for eating and snacking.",
+      "description": "Red apple made of fruit, used for eating and providing vitamins.",
       "bbox": [],
       "action_affordance": [
         "eat",
@@ -413,7 +414,7 @@
       "class": "toilet",
       "label": "toilet_20",
       "parent_room": 1,
-      "description": "White toilet made of porcelain, used for disposing of waste and relieving oneself.",
+      "description": "White toilet made of porcelain, used for relieving oneself and maintaining hygiene.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -428,7 +429,7 @@
       "class": "toilet",
       "label": "toilet_21",
       "parent_room": 2,
-      "description": "White toilet made of porcelain, used for relieving oneself and maintaining hygiene.",
+      "description": "White toilet made of porcelain, used for relieving oneself and sanitation.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -443,7 +444,7 @@
       "class": "chair",
       "label": "chair_22",
       "parent_room": 10,
-      "description": "Brown chair made of wood, used for sitting and resting.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -473,7 +474,7 @@
       "class": "chair",
       "label": "chair_24",
       "parent_room": 8,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Brown chair made of wood, used for sitting and providing support.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -488,7 +489,7 @@
       "class": "chair",
       "label": "chair_25",
       "parent_room": 10,
-      "description": "Brown chair made of wood, used for sitting and supporting a person.",
+      "description": "Brown chair made of wood, used for sitting and resting comfortably.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -573,7 +574,7 @@
       "class": "bed",
       "label": "bed_31",
       "parent_room": 3,
-      "description": "Cream bed made of wood, used for sleeping and resting comfortably.",
+      "description": "Cream bed made of wood, used for resting and sleeping.",
       "bbox": [],
       "action_affordance": [
         "make",
@@ -588,7 +589,7 @@
       "class": "bed",
       "label": "bed_32",
       "parent_room": 4,
-      "description": "Cream bed made of wood, used for sleeping and resting comfortably.",
+      "description": "Cream bed made of wood, used for resting and sleeping.",
       "bbox": [],
       "action_affordance": [
         "make",
@@ -620,7 +621,7 @@
       "class": "plate",
       "label": "plate_34",
       "parent_room": 1,
-      "description": "White plate made of ceramic, used for serving food and eating meals.",
+      "description": "White plate made of ceramic, used for serving and eating food.",
       "bbox": [],
       "action_affordance": []
     },
@@ -628,7 +629,7 @@
       "id": 35,
       "class": "fork",
       "label": "fork_35",
-      "parent_room": 7,
+      "parent_room": 4,
       "description": "Silver fork made of stainless steel, used for eating food.",
       "bbox": [],
       "action_affordance": []
@@ -637,8 +638,8 @@
       "id": 36,
       "class": "knife",
       "label": "knife_36",
-      "parent_room": 8,
-      "description": "Silver knife made of steel, used for cutting food and other materials.",
+      "parent_room": 4,
+      "description": "Silver knife made of steel, used for cutting food or self-defense.",
       "bbox": [],
       "action_affordance": []
     },
@@ -646,7 +647,7 @@
       "id": 37,
       "class": "spoon",
       "label": "spoon_37",
-      "parent_room": 1,
+      "parent_room": 6,
       "description": "Silver spoon made of stainless steel, used for eating and stirring food.",
       "bbox": [],
       "action_affordance": []
@@ -655,8 +656,8 @@
       "id": 38,
       "class": "glass",
       "label": "glass_38",
-      "parent_room": 8,
-      "description": "Clear glass vase made of glass, used for displaying flowers or decorations.",
+      "parent_room": 3,
+      "description": "Clear glass tumbler made of glass, used for drinking water or other beverages.",
       "bbox": [],
       "action_affordance": []
     },
@@ -664,8 +665,8 @@
       "id": 39,
       "class": "napkin",
       "label": "napkin_39",
-      "parent_room": 1,
-      "description": "White napkin made of linen, used for wiping spills or setting a table.",
+      "parent_room": 6,
+      "description": "White napkin made of linen, used for wiping spills or serving food.",
       "bbox": [],
       "action_affordance": []
     },
@@ -673,7 +674,7 @@
       "id": 40,
       "class": "fork",
       "label": "fork_40",
-      "parent_room": 2,
+      "parent_room": 5,
       "description": "Silver fork made of stainless steel, used for eating food.",
       "bbox": [],
       "action_affordance": []
@@ -682,7 +683,7 @@
       "id": 41,
       "class": "knife",
       "label": "knife_41",
-      "parent_room": 7,
+      "parent_room": 1,
       "description": "Silver knife made of steel, used for cutting food and other materials.",
       "bbox": [],
       "action_affordance": []
@@ -691,8 +692,8 @@
       "id": 42,
       "class": "spoon",
       "label": "spoon_42",
-      "parent_room": 11,
-      "description": "Silver spoon made of stainless steel, used for eating soup or stirring food.",
+      "parent_room": 9,
+      "description": "Silver spoon made of stainless steel, used for eating food.",
       "bbox": [],
       "action_affordance": []
     },
@@ -700,8 +701,8 @@
       "id": 43,
       "class": "glass",
       "label": "glass_43",
-      "parent_room": 4,
-      "description": "Clear glass vase made of glass, used for displaying flowers or decorative items.",
+      "parent_room": 9,
+      "description": "Clear glass goblet made of glass, used for holding beverages or displaying items.",
       "bbox": [],
       "action_affordance": []
     },
@@ -709,8 +710,8 @@
       "id": 44,
       "class": "napkin",
       "label": "napkin_44",
-      "parent_room": 10,
-      "description": "White napkin made of linen, used for wiping spills or setting a table.",
+      "parent_room": 6,
+      "description": "White napkin made of linen, used for wiping hands or plates during a meal.",
       "bbox": [],
       "action_affordance": []
     }

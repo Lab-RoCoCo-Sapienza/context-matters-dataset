@@ -24,7 +24,7 @@
       "objects_in_room": [
         6,
         17,
-        24
+        25
       ]
     },
     "3": {
@@ -35,7 +35,7 @@
       "objects_in_room": [
         12,
         18,
-        19
+        24
       ]
     },
     "4": {
@@ -44,7 +44,7 @@
       "label": "corridor_4",
       "bbox": [],
       "objects_in_room": [
-        26
+        21
       ]
     },
     "5": {
@@ -52,19 +52,14 @@
       "category": "corridor",
       "label": "corridor_5",
       "bbox": [],
-      "objects_in_room": [
-        23
-      ]
+      "objects_in_room": []
     },
     "6": {
       "id": 6,
       "category": "empty_room",
       "label": "empty_room_6",
       "bbox": [],
-      "objects_in_room": [
-        20,
-        21
-      ]
+      "objects_in_room": []
     },
     "7": {
       "id": 7,
@@ -83,6 +78,7 @@
       "objects_in_room": [
         3,
         13,
+        20,
         22
       ]
     },
@@ -93,7 +89,8 @@
       "bbox": [],
       "objects_in_room": [
         1,
-        2
+        2,
+        26
       ]
     },
     "10": {
@@ -102,8 +99,7 @@
       "label": "empty_room_10",
       "bbox": [],
       "objects_in_room": [
-        14,
-        25
+        14
       ]
     },
     "11": {
@@ -115,7 +111,9 @@
         4,
         5,
         7,
-        9
+        9,
+        19,
+        23
       ]
     }
   },
@@ -137,7 +135,7 @@
       "class": "kite",
       "label": "kite_2",
       "parent_room": 9,
-      "description": "Bright red kite made of nylon, used for soaring through the sky on a breezy day.",
+      "description": "Bright red kite made of nylon, used for soaring through the wind and enjoying a breezy outdoor activity.",
       "bbox": [],
       "action_affordance": [
         "fly",
@@ -149,7 +147,7 @@
       "class": "kite",
       "label": "kite_3",
       "parent_room": 8,
-      "description": "Bright red kite made of nylon, used for soaring through the air on a breezy day.",
+      "description": "Bright red kite made of nylon, used for soaring through the wind and enjoying outdoor fun.",
       "bbox": [],
       "action_affordance": [
         "fly",
@@ -161,7 +159,7 @@
       "class": "microwave",
       "label": "microwave_4",
       "parent_room": 11,
-      "description": "White microwave made of metal and plastic, used for heating food quickly.",
+      "description": "White microwave made of metal and plastic, used for heating food quickly and conveniently.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -177,7 +175,7 @@
       "class": "oven",
       "label": "oven_5",
       "parent_room": 11,
-      "description": "Shiny silver oven made of metal, used for baking and heating food.",
+      "description": "Shiny silver oven made of steel, used for baking and cooking food at high temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -193,7 +191,7 @@
       "class": "sink",
       "label": "sink_6",
       "parent_room": 2,
-      "description": "White sink made of porcelain, used for washing dishes and cleaning items.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -217,7 +215,7 @@
       "class": "sink",
       "label": "sink_8",
       "parent_room": 1,
-      "description": "White sink made of porcelain, used for washing dishes and hands.",
+      "description": "White sink made of porcelain, used for washing dishes and cleaning hands.",
       "bbox": [],
       "action_affordance": [
         "wash",
@@ -229,7 +227,7 @@
       "class": "refrigerator",
       "label": "refrigerator_9",
       "parent_room": 11,
-      "description": "White refrigerator made of steel, used for storing and preserving food at cool temperatures.",
+      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -243,7 +241,7 @@
       "class": "refrigerator",
       "label": "refrigerator_10",
       "parent_room": 7,
-      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
+      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -271,7 +269,7 @@
       "class": "refrigerator",
       "label": "refrigerator_12",
       "parent_room": 3,
-      "description": "White refrigerator made of steel, used for storing and preserving food at cold temperatures.",
+      "description": "White refrigerator made of steel, used for keeping food cold and preserving freshness.",
       "bbox": [],
       "action_affordance": [
         "open",
@@ -342,7 +340,7 @@
       "class": "toilet",
       "label": "toilet_17",
       "parent_room": 2,
-      "description": "White toilet made of porcelain, used for disposing of waste.",
+      "description": "White toilet made of porcelain, used for relieving oneself and maintaining hygiene.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -357,7 +355,7 @@
       "class": "chair",
       "label": "chair_18",
       "parent_room": 3,
-      "description": "Brown wooden chair, made of wood, used for sitting and supporting a person.",
+      "description": "Wooden chair made of wood, used for sitting and supporting a person.",
       "bbox": [],
       "action_affordance": [
         "sit on",
@@ -371,7 +369,7 @@
       "id": 19,
       "class": "desk",
       "label": "desk_19",
-      "parent_room": 3,
+      "parent_room": 11,
       "description": "Brown desk made of wood, used for working, studying, or holding items.",
       "bbox": [],
       "action_affordance": []
@@ -380,8 +378,8 @@
       "id": 20,
       "class": "lamp",
       "label": "lamp_20",
-      "parent_room": 6,
-      "description": "Cream lamp made of metal, used for illuminating a space.",
+      "parent_room": 8,
+      "description": "Warm white lamp made of metal and glass, used for providing light and illumination.",
       "bbox": [],
       "action_affordance": []
     },
@@ -389,8 +387,8 @@
       "id": 21,
       "class": "shelf",
       "label": "shelf_21",
-      "parent_room": 6,
-      "description": "Wooden shelf made of wood, used for displaying and storing items.",
+      "parent_room": 4,
+      "description": "Wooden shelf made of wood, used for displaying books and decorative items.",
       "bbox": [],
       "action_affordance": []
     },
@@ -407,7 +405,7 @@
       "id": 23,
       "class": "book into the shelf",
       "label": "book into the shelf_23",
-      "parent_room": 5,
+      "parent_room": 11,
       "description": "Brown book made of paper, used for reading and storing knowledge.",
       "bbox": [],
       "action_affordance": []
@@ -416,8 +414,8 @@
       "id": 24,
       "class": "folder into the shelf",
       "label": "folder into the shelf_24",
-      "parent_room": 2,
-      "description": "Brown folder made of paper, used for organizing documents and information.",
+      "parent_room": 3,
+      "description": "Brown folder made of paper, used for organizing documents and storing information.",
       "bbox": [],
       "action_affordance": []
     },
@@ -425,7 +423,7 @@
       "id": 25,
       "class": "pen into the shelf",
       "label": "pen into the shelf_25",
-      "parent_room": 10,
+      "parent_room": 2,
       "description": "Black pen, made of plastic, used for writing and drawing on paper.",
       "bbox": [],
       "action_affordance": []
@@ -434,7 +432,7 @@
       "id": 26,
       "class": "notebook into the shelf",
       "label": "notebook into the shelf_26",
-      "parent_room": 4,
+      "parent_room": 9,
       "description": "Cream notebook made of paper, used for writing, note-taking, and sketching ideas.",
       "bbox": [],
       "action_affordance": []
