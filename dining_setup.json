@@ -5,7 +5,7 @@
       "graph": ["Shelbiana","Allensville", "Parole"],
       "goal": "set the table for two people",
       "objects": {
-        "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin", "fork", "knife", "spoon", "glass", "napkin"]
+        "kitchenware" :[ "table", "plate", "fork", "knife", "spoon", "glass", "napkin", "fork", "knife", "spoon", "glass", "napkin"]
       },
       "relaxation_expected": false
     },
@@ -14,7 +14,7 @@
       "graph": ["Shelbiana","Allensville", "Parole"],
       "goal": "set the table for three people",
       "objects": {
-        "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin","fork","fork", "knife", "knife", "bowl", "plate"]
+        "kitchenware" :[ "table", "plate", "fork", "knife", "spoon", "glass", "napkin","fork","fork", "knife", "knife", "bowl", "plate"]
       },
       "relaxation_expected": true
     },
@@ -23,7 +23,7 @@
       "graph": ["Shelbiana","Allensville", "Parole"],
       "goal": "set the table for four people",
       "objects": {
-          "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin","fork","fork", "bowl", "plate", "plate", "fork",
+          "kitchenware" :[ "table", "plate", "fork", "knife", "spoon", "glass", "napkin","fork","fork", "bowl", "plate", "plate", "fork",
           "knife","knife", "rose", "rose", "rose", "rose", "vase"]
       },
       "relaxation_expected": false
@@ -33,7 +33,7 @@
       "graph": ["Shelbiana","Allensville", "Parole"],
       "goal": "set the table for two people, we'll have soup",
       "objects": {
-          "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin", "fork","fork", "bowl", "plate", "plate", "fork",
+          "kitchenware" :["table", "plate", "fork", "knife", "spoon", "glass", "napkin", "fork","fork", "bowl", "plate", "plate", "fork",
           "knife","knife", "rose", "rose", "rose", "rose", "vase"]
       },
       "relaxation_expected": false
@@ -43,7 +43,7 @@
       "graph": ["Shelbiana","Allensville", "Parole"],
       "goal": "set the table for a party, try decorating it",
       "objects": {
-          "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin", "fork","fork", "bowl", "plate", "plate", "fork",
+          "kitchenware" :[ "table", "plate", "fork", "knife", "spoon", "glass", "napkin", "fork","fork", "bowl", "plate", "plate", "fork",
           "knife","knife", "balloon", "balloon", "rose", "rose", "vase"]
       },
       "relaxation_expected": false
@@ -53,7 +53,7 @@
       "graph": ["Shelbiana","Allensville", "Parole"],
       "goal": "set the table for a buffet after a work meeting, try keeping it professional",
       "objects": {
-          "kitchenware" :["plate", "fork", "knife", "spoon", "glass", "napkin", "fork","fork", "bowl", "plate", "plate", "fork",
+          "kitchenware" :[ "table", "plate", "fork", "knife", "spoon", "glass", "napkin", "fork","fork", "bowl", "plate", "plate", "fork",
           "knife","knife", "balloon", "balloon", "rose", "rose", "vase"]
       },
       "relaxation_expected": false
