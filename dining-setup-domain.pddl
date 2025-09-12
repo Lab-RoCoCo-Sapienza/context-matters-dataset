@@ -1,4 +1,4 @@
-(define (domain other-domain)
+(define (domain dining-setup-domain)
 
     (:requirements
         :strips

@@ -6,7 +6,8 @@
       "goal": "Gather the necessary pc parts to assemble a working desktop PC in the dining room.",
       "objects": {
         "pc_parts": ["motherboard", "cpu", "ram", "gpu", "psu", "case", "monitor", "keyboard", "mouse"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_2": {
       "description": "Task related to assembling a PC",
@@ -14,7 +15,8 @@
       "goal": "Gather the necessary pc parts to assemble a PC in the dining room.",
       "objects": {
         "pc_parts": ["motherboard", "cpu", "ram", "gpu"]
-      }
+      },
+      "relaxation_expected": false
     },
     "problem_3": {
       "description": "Task related to assembling a PC",
@@ -22,7 +24,8 @@
       "goal": "Gather at least 4 parts to assemble a PC in dining room and at least one PC accessory",
       "objects": {
         "pc_parts": ["motherboard", "cpu", "ram", "gpu", "psu", "case", "monitor", "keyboard", "mouse"]
-      }
+      },
+      "relaxation_expected": false
     }
   },
   "domain": {

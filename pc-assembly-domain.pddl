@@ -1,4 +1,4 @@
-(define (domain other-domain)
+(define (domain pc-assembly-domain)
 
     (:requirements
         :strips

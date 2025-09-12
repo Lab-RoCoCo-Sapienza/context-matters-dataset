@@ -153,16 +153,15 @@
       {
         "name": "take_from",
         "description": "This action allows a robot to take a grabbable object from a surface in a room. Arguments: robot (the robot that will take the object), what (the grabbable object to be taken), from (the surface where the object is located), where (the room where the action takes place). Preconditions: the robot, the surface, and the object must be in the same room, and the robot must be free (not holding anything). Postconditions: the robot is holding the object, the object is no longer on the surface, and the robot is no longer free."
+      },
+      {
+        "name": "put_in",
+        "description": "This action allows a robot to place a grabbable object into a container in a room. Arguments: robot (the robot that will place the object), what (the grabbable object to be placed), in (the container where the object will be placed), where (the room where the action takes place). Preconditions: the robot, the container, and the object must be in the same room, and the robot must be holding the object. Postconditions: the robot is no longer holding the object, the object is in the container, and the robot is free."
+      },
+      {
+        "name": "take_out",
+        "description": "This action allows a robot to take a grabbable object out of a container in a room. Arguments: robot (the robot that will take the object), what (the grabbable object to be taken), from (the container where the object is located), where (the room where the action takes place). Preconditions: the robot, the container, and the object must be in the same room, and the robot must be free (not holding anything). Postconditions: the robot is holding the object, the object is no longer in the container, and the robot is no longer free."
       }
-       ,
-        {
-          "name": "put_in",
-          "description": "This action allows a robot to place a grabbable object into a container in a room. Arguments: robot (the robot that will place the object), what (the grabbable object to be placed), in (the container where the object will be placed), where (the room where the action takes place). Preconditions: the robot, the container, and the object must be in the same room, and the robot must be holding the object. Postconditions: the robot is no longer holding the object, the object is in the container, and the robot is free."
-        },
-        {
-          "name": "take_out",
-          "description": "This action allows a robot to take a grabbable object out of a container in a room. Arguments: robot (the robot that will take the object), what (the grabbable object to be taken), from (the container where the object is located), where (the room where the action takes place). Preconditions: the robot, the container, and the object must be in the same room, and the robot must be free (not holding anything). Postconditions: the robot is holding the object, the object is no longer in the container, and the robot is no longer free."
-        }
     ],
     "objects": [
       {
@@ -184,6 +183,10 @@
       {
         "type": "surface",
         "description": "A surface is a locatable object on which other objects can be placed. Examples include tables, countertops, etc."
+      },
+      {
+        "type": "container",
+        "description": "A locatable container that can hold objects. Examples: fridge, toy_box, cupboard."
       }
     ]
   }
